@@ -1,3 +1,5 @@
 collection
 releases
-ext1605_r4-source-code/*.jar
+ext1605_r4-source-code/ext1605_20_client.jar
+ext1605_r4-source-code/ext1605_20_server.jar
+ext1605_r4-source-code/vineflower-1.12.0.jar
