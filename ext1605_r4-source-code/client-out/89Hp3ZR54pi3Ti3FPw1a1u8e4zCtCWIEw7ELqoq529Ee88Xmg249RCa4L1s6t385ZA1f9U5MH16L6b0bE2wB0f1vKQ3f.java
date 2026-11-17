@@ -1,0 +1,15 @@
+import org.lwjgl.input.Keyboard;
+
+public class 89Hp3ZR54pi3Ti3FPw1a1u8e4zCtCWIEw7ELqoq529Ee88Xmg249RCa4L1s6t385ZA1f9U5MH16L6b0bE2wB0f1vKQ3f
+   extends 6QyM1rgWq47EmD8VntW1151WNxV6u1GrcT97J3aO703b0ee3PwLS1cLyd30i8sih2KF85tRIc801bQ9KD6g6vv0va6iEenlh7 {
+   public _9Hp3ZR54pi3Ti3FPw1a1u8e4zCtCWIEw7ELqoq529Ee88Xmg249RCa4L1s6t385ZA1f9U5MH16L6b0bE2wB0f1vKQ3f/* $VF was: 89Hp3ZR54pi3Ti3FPw1a1u8e4zCtCWIEw7ELqoq529Ee88Xmg249RCa4L1s6t385ZA1f9U5MH16L6b0bE2wB0f1vKQ3f */(
+      int var1, String var2
+   ) {
+      super(var1, var2);
+   }
+
+   @Override
+   public String _T404A3E6I2tO20bE3x5P8OAbPOAAGjGU7U6rJU404QV8ioHP1pXmKTMjWH3/* $VF was: 8T404A3E6I2tO20bE3x5P8OAbPOAAGjGU7U6rJU404QV8ioHP1pXmKTMjWH3 */() {
+      return Keyboard.isKeyDown(54) ? "LA CREATURA MAGNIFICA" : this.4t1lW19tZ9fNF29fS0DUWYBj0pHnk8AKHWJsn2b2o3Ms8S9s74kI6tVdkc00;
+   }
+}

@@ -1,0 +1,23 @@
+public class 48fbGwx3gVCsjqE9597R8O1YTGHQP3mn183kk0hu0E3PVO58GWV9kg4L8381la8JqzzkPz2cYtlW57uOo78O0yW1be0t4U {
+   public int 72jAtd6Qbu8r5iMNQJq7uM92706Y4zZ697noKaUS6k29y335JB41CmRXqRxO;
+   public int 64A42keoYR7fQd1vclqHTyoraii4SBYn4128VOU8OQC6e0r1tVx3337L5rRf;
+
+   public _8fbGwx3gVCsjqE9597R8O1YTGHQP3mn183kk0hu0E3PVO58GWV9kg4L8381la8JqzzkPz2cYtlW57uOo78O0yW1be0t4U/* $VF was: 48fbGwx3gVCsjqE9597R8O1YTGHQP3mn183kk0hu0E3PVO58GWV9kg4L8381la8JqzzkPz2cYtlW57uOo78O0yW1be0t4U */(
+      int var1, int var2
+   ) {
+      this.72jAtd6Qbu8r5iMNQJq7uM92706Y4zZ697noKaUS6k29y335JB41CmRXqRxO = var1;
+      this.64A42keoYR7fQd1vclqHTyoraii4SBYn4128VOU8OQC6e0r1tVx3337L5rRf = var2;
+   }
+
+   @Override
+   public int hashCode() {
+      return this.72jAtd6Qbu8r5iMNQJq7uM92706Y4zZ697noKaUS6k29y335JB41CmRXqRxO << 8 | this.64A42keoYR7fQd1vclqHTyoraii4SBYn4128VOU8OQC6e0r1tVx3337L5rRf;
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      48fbGwx3gVCsjqE9597R8O1YTGHQP3mn183kk0hu0E3PVO58GWV9kg4L8381la8JqzzkPz2cYtlW57uOo78O0yW1be0t4U var2 = (48fbGwx3gVCsjqE9597R8O1YTGHQP3mn183kk0hu0E3PVO58GWV9kg4L8381la8JqzzkPz2cYtlW57uOo78O0yW1be0t4U)var1;
+      return var2.72jAtd6Qbu8r5iMNQJq7uM92706Y4zZ697noKaUS6k29y335JB41CmRXqRxO == this.72jAtd6Qbu8r5iMNQJq7uM92706Y4zZ697noKaUS6k29y335JB41CmRXqRxO
+         && var2.64A42keoYR7fQd1vclqHTyoraii4SBYn4128VOU8OQC6e0r1tVx3337L5rRf == this.64A42keoYR7fQd1vclqHTyoraii4SBYn4128VOU8OQC6e0r1tVx3337L5rRf;
+   }
+}

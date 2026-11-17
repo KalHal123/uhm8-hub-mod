@@ -1,0 +1,52 @@
+import java.io.File;
+import net.minecraft.client.Minecraft;
+
+public class 3pM16fm5121V70RYJj0eP83d1MLLVmQLtMglL7yDxt13xF3Oq3R432Q757O7BngY9z4c42wCLRI1NXpkHEio4qxgUcn
+   extends 7q926m93a36jQTtmYhNYbZq4L7z26LBflco6R4gwsJgQ067Xw20VVuAXjkRJ4q4BUX5sQZFFIUo7w6Uw2yVEHURhPBENfI6leR {
+   public 3ORPujyXoc528ok17CDK2v35cjhKINHezyDdd3Nq4Eyf0ZeEPsUmbecZ0GhAxqw5yhZLv7rV8I9GIx6D1R90AWnla43Q4RrNK3p1y90 5y4erMy0TRR5fvcr9itUOrI3851rltorfXv3dSnzgy67I9f830Ch80l1Iyh6 = null;
+
+   public _pM16fm5121V70RYJj0eP83d1MLLVmQLtMglL7yDxt13xF3Oq3R432Q757O7BngY9z4c42wCLRI1NXpkHEio4qxgUcn/* $VF was: 3pM16fm5121V70RYJj0eP83d1MLLVmQLtMglL7yDxt13xF3Oq3R432Q757O7BngY9z4c42wCLRI1NXpkHEio4qxgUcn */(
+      int var1, 233716kL3y8r6gxg1ubCqEq995rLpa58n0ugDk5G90CW3LAprbMx379L3Bn7N16N8oRevy2kz6Kq01hN7sQb7K1dAC7XqQ var2
+   ) {
+      super(var1, var2);
+      this.9Jh5mk8D5l9P2bI8Lv7m90647ug7tSSFv7qK59d4IjI9GQxu4G3jcaZl5w41 = 178;
+   }
+
+   @Override
+   public void _AOqzOkYXJB3l48hFv6hXjl3G7d9i82KSCR80VNwI30MW3oZ0xJCo831r7R2/* $VF was: 6AOqzOkYXJB3l48hFv6hXjl3G7d9i82KSCR80VNwI30MW3oZ0xJCo831r7R2 */(
+      5gdApI3fnTM886NnVpNF5whRWSAY3i2e4yaS902KVT3Vi20lFKKqt7hQxQ4Am9w5DexG9374FK1Y5g7W3H8w65kv4VzY var1,
+      int var2,
+      int var3,
+      int var4,
+      4GWFbOIMR3rg69M1Tw7AsIuO5A54yNk6ixz2D7h14bcq6qKB3v03aoGd8614DGBeJF7H1Bel756g1YCxyfkR0pQsk5P6wYjVNy var5
+   ) {
+      if (var5 instanceof 4C3O7N57UHjn62Xg8mHbpBT6a61oCsr58ODA6311klk1mjxIM0Z0QE16TO84PffN7NUIXAo7uqYwJ3dp7iAgjanW1Pe5fm4
+         && this.5y4erMy0TRR5fvcr9itUOrI3851rltorfXv3dSnzgy67I9f830Ch80l1Iyh6 == null) {
+         1WAt54cM2S9HXBE2tf8vYm3Ind025Sf2dsQX7QMLl5G8NnHoRiW1ncB7Owy2FMxwF68U3LMu8o452Ucs6r4G9svQ91OCmip.4ZJzjV4ZUIoAEZm80Eg9UZ6ydiptq3Q0W2umW7h3bRHqfDcd45vw553X6qt7
+            ._C4Z46257W1E6vQBxmROHpdv4Mj3QD47gHaEuHV5x4967680j3Ig47k5vVL4/* $VF was: 9C4Z46257W1E6vQBxmROHpdv4Mj3QD47gHaEuHV5x4967680j3Ig47k5vVL4 */(
+               (5gdApI3fnTM886NnVpNF5whRWSAY3i2e4yaS902KVT3Vi20lFKKqt7hQxQ4Am9w5DexG9374FK1Y5g7W3H8w65kv4VzY)null
+            );
+         System.gc();
+         7XdlAOp7XckOje04de7ABA9F884wwnr6If64CVJj628g43i49363cBhRp98803WX78LMz1Brfwq184d66GuuJHlEN9KGq7m var6 = new 7XdlAOp7XckOje04de7ABA9F884wwnr6If64CVJj628g43i49363cBhRp98803WX78LMz1Brfwq184d66GuuJHlEN9KGq7m(
+            new File(
+               Minecraft._4365lSUZG8SRi4QcP0LdVO61o0N3570jYi74Tv6MwBh3c90i6CydLQuxD79/* $VF was: 74365lSUZG8SRi4QcP0LdVO61o0N3570jYi74Tv6MwBh3c90i6CydLQuxD79 */(),
+               "saves"
+            ),
+            var1.1FawBBFYvHD6RwlXAU5K97Vdl06vvbW1l7jIv9UTLqhT80S0VL74wGs85AKR
+         );
+         1WAt54cM2S9HXBE2tf8vYm3Ind025Sf2dsQX7QMLl5G8NnHoRiW1ncB7Owy2FMxwF68U3LMu8o452Ucs6r4G9svQ91OCmip.4ZJzjV4ZUIoAEZm80Eg9UZ6ydiptq3Q0W2umW7h3bRHqfDcd45vw553X6qt7
+            ._RDbmzDcBswGkR9G3X4B3Xsy0592TsY4ij6RDr2bbSyspy7q1zz8IJj1LDbN/* $VF was: 5RDbmzDcBswGkR9G3X4B3Xsy0592TsY4ij6RDr2bbSyspy7q1zz8IJj1LDbN */(
+               var6, "Joining Hub"
+            );
+         1WAt54cM2S9HXBE2tf8vYm3Ind025Sf2dsQX7QMLl5G8NnHoRiW1ncB7Owy2FMxwF68U3LMu8o452Ucs6r4G9svQ91OCmip.4ZJzjV4ZUIoAEZm80Eg9UZ6ydiptq3Q0W2umW7h3bRHqfDcd45vw553X6qt7
+            ._AhGMp6608Ha88cP0AKp402fgrMuur6v37TLnyN944DeKr5Y6m227AaMmY1Y/* $VF was: 3AhGMp6608Ha88cP0AKp402fgrMuur6v37TLnyN944DeKr5Y6m227AaMmY1Y */();
+      }
+   }
+
+   @Override
+   public int _0s72DHRk8450V5ix2YuPy19ut9O9fnZo2l52KE2s66iT2f3JBdYdBQ0t825/* $VF was: 40s72DHRk8450V5ix2YuPy19ut9O9fnZo2l52KE2s66iT2f3JBdYdBQ0t825 */(
+      int var1, int var2
+   ) {
+      return this.9Jh5mk8D5l9P2bI8Lv7m90647ug7tSSFv7qK59d4IjI9GQxu4G3jcaZl5w41;
+   }
+}

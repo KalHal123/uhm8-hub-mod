@@ -1,0 +1,8 @@
+public class 2Nh5xMFmYEj8NavLxCzeU5KXEtyOSqlq2Cjc0yx51pF2WLfkVcbKbPV7Oqqn5902S89UzDdp6XLr4i5O463A1VdQ03E99h1L
+   extends 6uJYj2wOsfi53uT3H3NAbDnv6BJZ225dzrcfVv7q65PhpIRhKM03ImcC1u42Yo4ZJD1RoY7LZrjT3y20jv096Ks56mrGt4DlF7e5 {
+   public _Nh5xMFmYEj8NavLxCzeU5KXEtyOSqlq2Cjc0yx51pF2WLfkVcbKbPV7Oqqn5902S89UzDdp6XLr4i5O463A1VdQ03E99h1L/* $VF was: 2Nh5xMFmYEj8NavLxCzeU5KXEtyOSqlq2Cjc0yx51pF2WLfkVcbKbPV7Oqqn5902S89UzDdp6XLr4i5O463A1VdQ03E99h1L */(
+      int var1, String var2
+   ) {
+      super(var1, var2);
+   }
+}

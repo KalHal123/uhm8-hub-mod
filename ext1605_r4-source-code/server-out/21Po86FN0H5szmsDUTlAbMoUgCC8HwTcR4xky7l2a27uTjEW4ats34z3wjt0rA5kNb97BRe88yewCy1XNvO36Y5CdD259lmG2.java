@@ -1,0 +1,9 @@
+public class 21Po86FN0H5szmsDUTlAbMoUgCC8HwTcR4xky7l2a27uTjEW4ats34z3wjt0rA5kNb97BRe88yewCy1XNvO36Y5CdD259lmG2
+   extends 922HppOiy3oKliIpY4oyxno015ujjkydL0s9mCyYXRS3fAO25A8370f4R06nh9MNUr09axO4L1826Mjo4b650zoI99HzUt1 {
+   public _1Po86FN0H5szmsDUTlAbMoUgCC8HwTcR4xky7l2a27uTjEW4ats34z3wjt0rA5kNb97BRe88yewCy1XNvO36Y5CdD259lmG2/* $VF was: 21Po86FN0H5szmsDUTlAbMoUgCC8HwTcR4xky7l2a27uTjEW4ats34z3wjt0rA5kNb97BRe88yewCy1XNvO36Y5CdD259lmG2 */(
+      int var1
+   ) {
+      super(var1);
+      this.1mtNVz8G4h665TJH28TCUUOgaZ5IyJ3cDwrQer0EfJ8bmMvkv3Z3Sk8753Yf = 16;
+   }
+}

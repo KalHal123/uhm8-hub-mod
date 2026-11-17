@@ -29,7 +29,7 @@ THINGS TO KNOW
   * Each world has its own player save, so your inventory does NOT follow you between worlds or into the hub.
   * Hub Door block ID is 194. Don't go back to the unpatched jar with Hub Doors placed in a world.
 
-WHAT WAS WRONG / WHAT CHANGED  (3 classes patched, everything else byte-identical)
+WHAT CHANGED SO FAR (as of v20261117)
   1. Block registry (ExtBlocks): the Hub Door block field was declared but never assigned, so the
      "Hub Door" item (ID 112) wrapped null and the block never existed. It is now created and registered.
   2. BlockHubDoor: drops the Hub Door item (was Iron Door); in the hub it opens the world picker; in other
@@ -40,3 +40,5 @@ WHAT WAS WRONG / WHAT CHANGED  (3 classes patched, everything else byte-identica
   The hub's room generator (rooms with doors) is dead code in this build - nothing calls it - so it was
   left alone. Source of the patcher is in source/.
   The current hub world is just a flat plane made out of DBG blocks which is exactly what the code produces right now. Work in progress.
+
+ext1605_r4-source-code/ Contains the decompiled source code to ext1605_r4 client and server jar. Downloaded from the wiki on Nov 17th 2026. Decompiled does not mean it is deobfuscated though.

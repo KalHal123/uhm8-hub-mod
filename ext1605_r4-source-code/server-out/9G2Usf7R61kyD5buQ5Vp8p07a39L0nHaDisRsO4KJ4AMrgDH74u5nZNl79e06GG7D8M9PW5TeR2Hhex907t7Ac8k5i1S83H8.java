@@ -1,0 +1,7 @@
+public class 9G2Usf7R61kyD5buQ5Vp8p07a39L0nHaDisRsO4KJ4AMrgDH74u5nZNl79e06GG7D8M9PW5TeR2Hhex907t7Ac8k5i1S83H8 extends RuntimeException {
+   public _G2Usf7R61kyD5buQ5Vp8p07a39L0nHaDisRsO4KJ4AMrgDH74u5nZNl79e06GG7D8M9PW5TeR2Hhex907t7Ac8k5i1S83H8/* $VF was: 9G2Usf7R61kyD5buQ5Vp8p07a39L0nHaDisRsO4KJ4AMrgDH74u5nZNl79e06GG7D8M9PW5TeR2Hhex907t7Ac8k5i1S83H8 */(
+      String var1
+   ) {
+      super(var1);
+   }
+}

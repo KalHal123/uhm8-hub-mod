@@ -1,0 +1,9 @@
+public class 1qFvFaJPQ2gA31wyzG1Yxe925B35Lom80cg857hRTux5p8Tn3616U67uO9fLna007Iu4yVgw8ImC5I3bhW8xn5S6O15G {
+   public float 6h838yup4LqBOQpO9693L6DsQFdnLTrC2doFIl439Cb5aUy0Epb4pkO0k6v2;
+
+   public _qFvFaJPQ2gA31wyzG1Yxe925B35Lom80cg857hRTux5p8Tn3616U67uO9fLna007Iu4yVgw8ImC5I3bhW8xn5S6O15G/* $VF was: 1qFvFaJPQ2gA31wyzG1Yxe925B35Lom80cg857hRTux5p8Tn3616U67uO9fLna007Iu4yVgw8ImC5I3bhW8xn5S6O15G */(
+      float var1
+   ) {
+      this.6h838yup4LqBOQpO9693L6DsQFdnLTrC2doFIl439Cb5aUy0Epb4pkO0k6v2 = var1;
+   }
+}

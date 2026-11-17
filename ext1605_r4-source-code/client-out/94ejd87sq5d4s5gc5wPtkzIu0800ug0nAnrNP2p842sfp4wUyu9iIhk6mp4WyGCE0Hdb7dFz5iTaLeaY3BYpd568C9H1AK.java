@@ -1,0 +1,40 @@
+import java.util.Random;
+
+public class 94ejd87sq5d4s5gc5wPtkzIu0800ug0nAnrNP2p842sfp4wUyu9iIhk6mp4WyGCE0Hdb7dFz5iTaLeaY3BYpd568C9H1AK
+   extends 55XXM28b6p84b4G2l6B1InnTc701h21NG7n6pZPb2RkqeSGMf12ZMp058OFNNJP04Q3WjX0S3IEUdu0p0YkM1TMGm5WXG2Nme6 {
+   public _4ejd87sq5d4s5gc5wPtkzIu0800ug0nAnrNP2p842sfp4wUyu9iIhk6mp4WyGCE0Hdb7dFz5iTaLeaY3BYpd568C9H1AK/* $VF was: 94ejd87sq5d4s5gc5wPtkzIu0800ug0nAnrNP2p842sfp4wUyu9iIhk6mp4WyGCE0Hdb7dFz5iTaLeaY3BYpd568C9H1AK */(
+      int var1, int var2
+   ) {
+      super(
+         var1,
+         var2,
+         233716kL3y8r6gxg1ubCqEq995rLpa58n0ugDk5G90CW3LAprbMx379L3Bn7N16N8oRevy2kz6Kq01hN7sQb7K1dAC7XqQ.05M2lyfhkCWxFBaMQ4zXC4s76HnC5g08gem1NGa81EXm8lCOe51JljjWbII4
+      );
+   }
+
+   @Override
+   public int _LTZgqX2KHwGhNpQ1gUZz1WaWt0W2TrjgClq35mEWEh8l45qEVZXQ21Rh3g0/* $VF was: 8LTZgqX2KHwGhNpQ1gUZz1WaWt0W2TrjgClq35mEWEh8l45qEVZXQ21Rh3g0 */(
+      int var1, Random var2
+   ) {
+      if (this.01lgF9B869y98971xM904ArErwAmKW0135S3qc6W8Vi3wsv260KyANkXWhDN
+         == 55XXM28b6p84b4G2l6B1InnTc701h21NG7n6pZPb2RkqeSGMf12ZMp058OFNNJP04Q3WjX0S3IEUdu0p0YkM1TMGm5WXG2Nme6.9t5CIG5lYf8kP6t1h2645NE1zc6Bfmrz5MhNq85OJnX4K26wlII7y9k2A5K9
+            .01lgF9B869y98971xM904ArErwAmKW0135S3qc6W8Vi3wsv260KyANkXWhDN) {
+         return 9ygxPoiW4c6wxGp26X118F0yxK032lk54Et3G9z9La2P3u89472GAyR8g9qCe7Mm61D4aJdzSiABhv3paZ7eid82x1ned.36u3iM1vfKICl72BftgumK7dzL8J2JaWh7vCn2mqIBQkZ5i223a452A33C6M
+            .016D6B0WzYa1oAf8GVzuN3e04Nkxq5CzkT5YVZhj2l5H8LW20C9lkr0R7pc5;
+      } else {
+         return this.01lgF9B869y98971xM904ArErwAmKW0135S3qc6W8Vi3wsv260KyANkXWhDN
+               == 55XXM28b6p84b4G2l6B1InnTc701h21NG7n6pZPb2RkqeSGMf12ZMp058OFNNJP04Q3WjX0S3IEUdu0p0YkM1TMGm5WXG2Nme6.4ckU7i3ms5k6r9BWH4y0Hnf90p622q0E4JWX0HWGDvo31d3EKwDdiOBsi6zx
+                  .01lgF9B869y98971xM904ArErwAmKW0135S3qc6W8Vi3wsv260KyANkXWhDN
+            ? 9ygxPoiW4c6wxGp26X118F0yxK032lk54Et3G9z9La2P3u89472GAyR8g9qCe7Mm61D4aJdzSiABhv3paZ7eid82x1ned.7jG03f5N8AZ71e95Yig1x5X5su0G3sSEbik8B2svHjqxn20r94BuAQm5J4KE
+               .016D6B0WzYa1oAf8GVzuN3e04Nkxq5CzkT5YVZhj2l5H8LW20C9lkr0R7pc5
+            : this.01lgF9B869y98971xM904ArErwAmKW0135S3qc6W8Vi3wsv260KyANkXWhDN;
+      }
+   }
+
+   @Override
+   public int _5k0se28RPK2IN33WJfb5g4oDd7zeQlWp0LvSfJeHBZ0aVU090Eh0r7XB665/* $VF was: 45k0se28RPK2IN33WJfb5g4oDd7zeQlWp0LvSfJeHBZ0aVU090Eh0r7XB665 */(
+      Random var1
+   ) {
+      return 1;
+   }
+}

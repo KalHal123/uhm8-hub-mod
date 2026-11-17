@@ -1,0 +1,42 @@
+import org.lwjgl.opengl.GL11;
+
+public class 2UQBJP5xVBLvcOj4Zez1XaJembU13Cma9CKxz4KHBXDgtLvI3Q228ox61gusX4MQeIDyXmP4j3bUou3222GJ6BeabF38 {
+   public byte[] 8hTHSC7rG7gfcnHOO1IR8LKJ5WbfgWP4DZy894U21YDCTVhNU4pMPGK2WT4D = new byte[1024];
+   public int 5WM1LGW9GUgzeD24G7fCa6oIAGn7KuReXrb1632gE1jDa8S25J3Ulv2S0N6V;
+   public boolean 06P3mXenpD5L0FS19r771z79X4G6ToUmlYYq950W8EH6ukeiX4WQd6Wqr2uA = false;
+   public int 2wE0ZDF8ttwyn15gNPYYhp30w9E7M6vLpEj46bOw9yupTN6Yy7Z6duwQ9klA = 0;
+   public int 2r4qC4o6Ex5Qa6j5s9Q44419BRuE90j03wh4yL3yFS46YmB5u0nSpx5Z6wvl = 1;
+   public int 08vPf4y1fcDlGu3p83ZMwzDHz714NlB97oIRyuiN2vIzQg1EnVH33cVs8sKb = 0;
+   protected boolean 88024hG6da4f4kcVfOqR8cTJ36RtCs13wB6V30Rs17vqAj14F4Cqz3neFg20 = true;
+
+   public _UQBJP5xVBLvcOj4Zez1XaJembU13Cma9CKxz4KHBXDgtLvI3Q228ox61gusX4MQeIDyXmP4j3bUou3222GJ6BeabF38/* $VF was: 2UQBJP5xVBLvcOj4Zez1XaJembU13Cma9CKxz4KHBXDgtLvI3Q228ox61gusX4MQeIDyXmP4j3bUou3222GJ6BeabF38 */(
+      int var1
+   ) {
+      this.5WM1LGW9GUgzeD24G7fCa6oIAGn7KuReXrb1632gE1jDa8S25J3Ulv2S0N6V = var1;
+   }
+
+   public void _8ejD45Q8LEgM39W23b9PS53H72qux6CoqBH3EmIU8XRRLm3446Q9e3d4IQv/* $VF was: 88ejD45Q8LEgM39W23b9PS53H72qux6CoqBH3EmIU8XRRLm3446Q9e3d4IQv */() {
+   }
+
+   public void _7pfu6QiNl9iOE7h4B6hweUcCLhkFH4GmWRCJ90tW10o7698En8DsRlvG43E/* $VF was: 67pfu6QiNl9iOE7h4B6hweUcCLhkFH4GmWRCJ90tW10o7698En8DsRlvG43E */(
+      5Lml2WQU47jeFJG239AnmSQZG8A856GHcgfCWv3MQ32Se6j5ertND69E03Xxrcpd3AQ5kTI4Rh5cBQl7Opa23XEF064r9u var1
+   ) {
+      if (this.08vPf4y1fcDlGu3p83ZMwzDHz714NlB97oIRyuiN2vIzQg1EnVH33cVs8sKb == 0) {
+         GL11.glBindTexture(
+            3553,
+            var1._vr7L7MEUPLNFHeDB0cpS18i1kbYTl3cg8B9xZTI4Q7Y2C8A0s7Y075Qa7O8/* $VF was: 7vr7L7MEUPLNFHeDB0cpS18i1kbYTl3cg8B9xZTI4Q7Y2C8A0s7Y075Qa7O8 */(
+               7yDngUXBYilDo3B5U1OQjbOC7YXT20yRn3Tcd85a5HhG5v856xXdCWUtjJXOc078JNt0up84KG4cgp466vtym7iZ695S7Udf._33cA0YF34t606AzhAl21SSFKu5o86ZfZT6w0TL8Lej56qphXp7Tl0V5475T/* $VF was: 833cA0YF34t606AzhAl21SSFKu5o86ZfZT6w0TL8Lej56qphXp7Tl0V5475T */(
+                  7yDngUXBYilDo3B5U1OQjbOC7YXT20yRn3Tcd85a5HhG5v856xXdCWUtjJXOc078JNt0up84KG4cgp466vtym7iZ695S7Udf.62Ccm2XAR6JqSDTgV762x61j971DNgsIrMhaXZxPs0fQnBC7ymR2l1v1V22X
+               )
+            )
+         );
+      } else if (this.08vPf4y1fcDlGu3p83ZMwzDHz714NlB97oIRyuiN2vIzQg1EnVH33cVs8sKb == 1) {
+         GL11.glBindTexture(
+            3553,
+            var1._vr7L7MEUPLNFHeDB0cpS18i1kbYTl3cg8B9xZTI4Q7Y2C8A0s7Y075Qa7O8/* $VF was: 7vr7L7MEUPLNFHeDB0cpS18i1kbYTl3cg8B9xZTI4Q7Y2C8A0s7Y075Qa7O8 */(
+               "/gui/items.png"
+            )
+         );
+      }
+   }
+}

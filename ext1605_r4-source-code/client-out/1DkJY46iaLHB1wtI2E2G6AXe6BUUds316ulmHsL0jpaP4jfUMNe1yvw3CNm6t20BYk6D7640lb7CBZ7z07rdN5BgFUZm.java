@@ -1,0 +1,54 @@
+public class 1DkJY46iaLHB1wtI2E2G6AXe6BUUds316ulmHsL0jpaP4jfUMNe1yvw3CNm6t20BYk6D7640lb7CBZ7z07rdN5BgFUZm
+   extends 0ECRySO2ZaZ3hAw802GAIE2jA5626470r98fKRoq1Ir8YCuKH8Yu3am8N9n1EH4812LivebL7DR8c1HM58L28sHe2X17t2c0Lz {
+   public boolean 51QqU0dakUk0OZV5Cbhl2C7f7SJ99nlP00J16J9t6yPSUh85umVYQoi982yW = false;
+
+   public _DkJY46iaLHB1wtI2E2G6AXe6BUUds316ulmHsL0jpaP4jfUMNe1yvw3CNm6t20BYk6D7640lb7CBZ7z07rdN5BgFUZm/* $VF was: 1DkJY46iaLHB1wtI2E2G6AXe6BUUds316ulmHsL0jpaP4jfUMNe1yvw3CNm6t20BYk6D7640lb7CBZ7z07rdN5BgFUZm */(
+      5gdApI3fnTM886NnVpNF5whRWSAY3i2e4yaS902KVT3Vi20lFKKqt7hQxQ4Am9w5DexG9374FK1Y5g7W3H8w65kv4VzY var1
+   ) {
+      super(var1);
+      this.92dd13teNdN3UHmj42FIY7ZmQzliOiAB2pp5PkEkDRae927U5V5S4SkCt5u6 = "/mob/amoung.png";
+      this._5loj843J7z9B44qV33L5TKJZFJij0XyD69nizW548ccvDWqPV5T19gxY4QL/* $VF was: 15loj843J7z9B44qV33L5TKJZFJij0XyD69nizW548ccvDWqPV5T19gxY4QL */(1.0F, 1.0F);
+   }
+
+   @Override
+   public void _Ls97gw76RY44OMbjY6qs1X2sfOFdG73TrqePUl8zY4Q3My0h6TzNE1ou4h3/* $VF was: 4Ls97gw76RY44OMbjY6qs1X2sfOFdG73TrqePUl8zY4Q3My0h6TzNE1ou4h3 */(
+      8v1Wea8NBtvX76Z25hmTl58edvN4Yfmt895AY82fN0vlvW0X33m3A2373n0El8iwc691zC268LPWZoiTtf503fOE7RFMg6419 var1
+   ) {
+      super._Ls97gw76RY44OMbjY6qs1X2sfOFdG73TrqePUl8zY4Q3My0h6TzNE1ou4h3/* $VF was: 4Ls97gw76RY44OMbjY6qs1X2sfOFdG73TrqePUl8zY4Q3My0h6TzNE1ou4h3 */(var1);
+   }
+
+   @Override
+   public void _I0n2x3WrSDHcemqIAKgH639pg0x8b06FnRk3jG9pg4mQ8523FSv3JMt8yoH/* $VF was: 5I0n2x3WrSDHcemqIAKgH639pg0x8b06FnRk3jG9pg4mQ8523FSv3JMt8yoH */(
+      8v1Wea8NBtvX76Z25hmTl58edvN4Yfmt895AY82fN0vlvW0X33m3A2373n0El8iwc691zC268LPWZoiTtf503fOE7RFMg6419 var1
+   ) {
+      super._I0n2x3WrSDHcemqIAKgH639pg0x8b06FnRk3jG9pg4mQ8523FSv3JMt8yoH/* $VF was: 5I0n2x3WrSDHcemqIAKgH639pg0x8b06FnRk3jG9pg4mQ8523FSv3JMt8yoH */(var1);
+   }
+
+   @Override
+   protected String _TdiIya4Yzu32F018vqxEAY4O8S0Z6odK21RIw6zWnI0nBA02i5g4D8U4k92/* $VF was: 8TdiIya4Yzu32F018vqxEAY4O8S0Z6odK21RIw6zWnI0nBA02i5g4D8U4k92 */() {
+      return "mob.skeletonhurt";
+   }
+
+   @Override
+   protected String _2LL2iUH8734nd7hDR98W92xjqvLcwk79ihO671rRZjH1BrfeU85W34FHvDh/* $VF was: 62LL2iUH8734nd7hDR98W92xjqvLcwk79ihO671rRZjH1BrfeU85W34FHvDh */() {
+      return "mob.skeletonhurt";
+   }
+
+   @Override
+   protected float _lK3Up284QSA1FsxXfq2H1A01o7U3400iRT58fZcrZZdCB9YnIC3D3t7UE80/* $VF was: 2lK3Up284QSA1FsxXfq2H1A01o7U3400iRT58fZcrZZdCB9YnIC3D3t7UE80 */() {
+      return 0.4F;
+   }
+
+   @Override
+   protected int _E3q144ZA5BH5GHWk6vbZw49e9s66jtWi8NNmZwKvLQ5fI38Un5rAdfeKviu/* $VF was: 1E3q144ZA5BH5GHWk6vbZw49e9s66jtWi8NNmZwKvLQ5fI38Un5rAdfeKviu */() {
+      return 9ygxPoiW4c6wxGp26X118F0yxK032lk54Et3G9z9La2P3u89472GAyR8g9qCe7Mm61D4aJdzSiABhv3paZ7eid82x1ned.13mFx4cj76T3Bx8cgqn2L1531HSRG6ynZ1k55b2JEPO07bRXUF04QK047Vu0
+         .016D6B0WzYa1oAf8GVzuN3e04Nkxq5CzkT5YVZhj2l5H8LW20C9lkr0R7pc5;
+   }
+
+   @Override
+   public boolean _40Sx5F0qqT3Wi80B404qA21OY34rEy8H0w028k33qxzz62XenRDZ6nS3E3a/* $VF was: 040Sx5F0qqT3Wi80B404qA21OY34rEy8H0w028k33qxzz62XenRDZ6nS3E3a */(
+      4C3O7N57UHjn62Xg8mHbpBT6a61oCsr58ODA6311klk1mjxIM0Z0QE16TO84PffN7NUIXAo7uqYwJ3dp7iAgjanW1Pe5fm4 var1
+   ) {
+      return false;
+   }
+}

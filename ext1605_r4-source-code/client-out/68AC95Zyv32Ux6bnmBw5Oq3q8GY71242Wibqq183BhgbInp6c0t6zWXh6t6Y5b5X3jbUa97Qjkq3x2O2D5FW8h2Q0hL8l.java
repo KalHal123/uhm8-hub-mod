@@ -1,0 +1,67 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
+public class 68AC95Zyv32Ux6bnmBw5Oq3q8GY71242Wibqq183BhgbInp6c0t6zWXh6t6Y5b5X3jbUa97Qjkq3x2O2D5FW8h2Q0hL8l {
+   public List<5D3Kb3ACD4U69935L8YcgwF1Vsl27lrSRN45mVc2J7UkxF9vRf7uB29j9e524OY70E244iU0jS93597Ti1F3M0aN997g9i> 85h9e2cTsvAWO1p492g6AdQIj3dl8j6KX33tL9EFo6531Ms58vUtB36G2Gfb = new ArrayList<>();
+   public List<3a8a11bh5r4ogV8FhVq36CWWWDG0l8flMGLEyLd25Jh6847SR9XrT4E8f7Ig2iSoGB5rRQ3VMMT4Bi8LU4fu26rHo5XvrUh6> 7xthqUtXF72G1yO4Jm1udIo5drq4STraBm5VvE1ZtRg4x0DIVecZn2e3z878 = Arrays.asList(
+      new 5i8J2UJ1P7I8F6ED7SZwyZZBTNZCu1JnAZ3A9KtdPWiy1nwCEZ5cm2759vU06FTBjyl6TO51gKft4qcX08N743iwR7ZvORuh(),
+      new 7MCvYN60yBdUAaXYW4zHV9X9mb7DHke6Xb56vPA34T3Sp7o96iQgNat25pf5rwXl1rBEI258wf8ktMRxtcazkx2ONC0B4vb2()
+   );
+   public 5gdApI3fnTM886NnVpNF5whRWSAY3i2e4yaS902KVT3Vi20lFKKqt7hQxQ4Am9w5DexG9374FK1Y5g7W3H8w65kv4VzY 3968CQutGrukfTB9VYzjXXg476t6OD8a0u5Oi0SbnzRaUYD4xwO0N7Z4Xrnf;
+   public List<70pJAUdD1WtJoLsgqhZculD3p2Og8v0NcuiFqn8Jia5te028O6pE86DC0O3r8YMbA2ad5R7012MXZ7rnuhw2P7HBGVk61O> 01Oev29w83k3gTIyutcz81qRoY74Y4ZJq8qVRIiDic9kEMAMwcN5zWd2qDrD;
+
+   public _8AC95Zyv32Ux6bnmBw5Oq3q8GY71242Wibqq183BhgbInp6c0t6zWXh6t6Y5b5X3jbUa97Qjkq3x2O2D5FW8h2Q0hL8l/* $VF was: 68AC95Zyv32Ux6bnmBw5Oq3q8GY71242Wibqq183BhgbInp6c0t6zWXh6t6Y5b5X3jbUa97Qjkq3x2O2D5FW8h2Q0hL8l */(
+      5gdApI3fnTM886NnVpNF5whRWSAY3i2e4yaS902KVT3Vi20lFKKqt7hQxQ4Am9w5DexG9374FK1Y5g7W3H8w65kv4VzY var1
+   ) {
+      this.3968CQutGrukfTB9VYzjXXg476t6OD8a0u5Oi0SbnzRaUYD4xwO0N7Z4Xrnf = var1;
+   }
+
+   public List<3a8a11bh5r4ogV8FhVq36CWWWDG0l8flMGLEyLd25Jh6847SR9XrT4E8f7Ig2iSoGB5rRQ3VMMT4Bi8LU4fu26rHo5XvrUh6> _krR8RY8Lit8m2XC7DwQ04cb7HDhnux1qgsUpZS7azBEHR7aTDNV3Z68Fvcp/* $VF was: 1krR8RY8Lit8m2XC7DwQ04cb7HDhnux1qgsUpZS7azBEHR7aTDNV3Z68Fvcp */(
+      List<3a8a11bh5r4ogV8FhVq36CWWWDG0l8flMGLEyLd25Jh6847SR9XrT4E8f7Ig2iSoGB5rRQ3VMMT4Bi8LU4fu26rHo5XvrUh6> var1,
+      70pJAUdD1WtJoLsgqhZculD3p2Og8v0NcuiFqn8Jia5te028O6pE86DC0O3r8YMbA2ad5R7012MXZ7rnuhw2P7HBGVk61O var2
+   ) {
+      ArrayList var3 = new ArrayList();
+
+      for (3a8a11bh5r4ogV8FhVq36CWWWDG0l8flMGLEyLd25Jh6847SR9XrT4E8f7Ig2iSoGB5rRQ3VMMT4Bi8LU4fu26rHo5XvrUh6 var5 : var1) {
+         if (var5._Fr7xp2MhIWZ7rPGzDSLq3636dP308hymUd55041uUOWWR9a4K2k4M404g8Y/* $VF was: 0Fr7xp2MhIWZ7rPGzDSLq3636dP308hymUd55041uUOWWR9a4K2k4M404g8Y */(
+            this.3968CQutGrukfTB9VYzjXXg476t6OD8a0u5Oi0SbnzRaUYD4xwO0N7Z4Xrnf, var2
+         )) {
+            var3.add(var5);
+         }
+      }
+
+      return var3;
+   }
+
+   public void _D21IkV2d155L4a6fw7mbZQX76gpT0dN9dLeWfBx75jhvP3L9062RC3AcjMH/* $VF was: 7D21IkV2d155L4a6fw7mbZQX76gpT0dN9dLeWfBx75jhvP3L9062RC3AcjMH */(
+      70pJAUdD1WtJoLsgqhZculD3p2Og8v0NcuiFqn8Jia5te028O6pE86DC0O3r8YMbA2ad5R7012MXZ7rnuhw2P7HBGVk61O var1
+   ) {
+      this.01Oev29w83k3gTIyutcz81qRoY74Y4ZJq8qVRIiDic9kEMAMwcN5zWd2qDrD = this.7xthqUtXF72G1yO4Jm1udIo5drq4STraBm5VvE1ZtRg4x0DIVecZn2e3z878
+         .get(0)
+         ._4usCZZK9YMJIcFl7921PvZX5z6qP4651m297c3T8VVM6dSt80Ej3HQEyHQ7/* $VF was: 64usCZZK9YMJIcFl7921PvZX5z6qP4651m297c3T8VVM6dSt80Ej3HQEyHQ7 */(
+            this.3968CQutGrukfTB9VYzjXXg476t6OD8a0u5Oi0SbnzRaUYD4xwO0N7Z4Xrnf, var1
+         );
+   }
+
+   public void _5nVrL3AMQcnf39OMX2h92CpyuCxn2YDAy44nop7R6sUOFgw23SlAnk8rNIf/* $VF was: 25nVrL3AMQcnf39OMX2h92CpyuCxn2YDAy44nop7R6sUOFgw23SlAnk8rNIf */() {
+      ArrayList var1 = new ArrayList();
+
+      for (70pJAUdD1WtJoLsgqhZculD3p2Og8v0NcuiFqn8Jia5te028O6pE86DC0O3r8YMbA2ad5R7012MXZ7rnuhw2P7HBGVk61O var3 : this.01Oev29w83k3gTIyutcz81qRoY74Y4ZJq8qVRIiDic9kEMAMwcN5zWd2qDrD) {
+         3a8a11bh5r4ogV8FhVq36CWWWDG0l8flMGLEyLd25Jh6847SR9XrT4E8f7Ig2iSoGB5rRQ3VMMT4Bi8LU4fu26rHo5XvrUh6 var4 = this.7xthqUtXF72G1yO4Jm1udIo5drq4STraBm5VvE1ZtRg4x0DIVecZn2e3z878
+            .get(new Random().nextInt(this.7xthqUtXF72G1yO4Jm1udIo5drq4STraBm5VvE1ZtRg4x0DIVecZn2e3z878.size()));
+         if (var4._Fr7xp2MhIWZ7rPGzDSLq3636dP308hymUd55041uUOWWR9a4K2k4M404g8Y/* $VF was: 0Fr7xp2MhIWZ7rPGzDSLq3636dP308hymUd55041uUOWWR9a4K2k4M404g8Y */(
+            this.3968CQutGrukfTB9VYzjXXg476t6OD8a0u5Oi0SbnzRaUYD4xwO0N7Z4Xrnf, var3
+         )) {
+            for (70pJAUdD1WtJoLsgqhZculD3p2Og8v0NcuiFqn8Jia5te028O6pE86DC0O3r8YMbA2ad5R7012MXZ7rnuhw2P7HBGVk61O var7 : var4._4usCZZK9YMJIcFl7921PvZX5z6qP4651m297c3T8VVM6dSt80Ej3HQEyHQ7/* $VF was: 64usCZZK9YMJIcFl7921PvZX5z6qP4651m297c3T8VVM6dSt80Ej3HQEyHQ7 */(
+               this.3968CQutGrukfTB9VYzjXXg476t6OD8a0u5Oi0SbnzRaUYD4xwO0N7Z4Xrnf, var3
+            )) {
+               var1.add(var7);
+            }
+         }
+      }
+
+      this.01Oev29w83k3gTIyutcz81qRoY74Y4ZJq8qVRIiDic9kEMAMwcN5zWd2qDrD = var1;
+   }
+}

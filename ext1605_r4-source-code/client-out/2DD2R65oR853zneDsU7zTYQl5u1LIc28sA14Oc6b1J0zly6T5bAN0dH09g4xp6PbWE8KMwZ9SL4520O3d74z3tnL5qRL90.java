@@ -1,0 +1,25 @@
+import java.util.Random;
+
+public class 2DD2R65oR853zneDsU7zTYQl5u1LIc28sA14Oc6b1J0zly6T5bAN0dH09g4xp6PbWE8KMwZ9SL4520O3d74z3tnL5qRL90
+   extends 5p2DdJO70rg655342hg1oJH6M1BkC7Xu3Jx42L9y6iJ0AX7bdh75C3uxQ2Uvb0V71Aaw1bmLg8ns1w2C2SPlHz5IxJq2lTXtW6D5B {
+   public _DD2R65oR853zneDsU7zTYQl5u1LIc28sA14Oc6b1J0zly6T5bAN0dH09g4xp6PbWE8KMwZ9SL4520O3d74z3tnL5qRL90/* $VF was: 2DD2R65oR853zneDsU7zTYQl5u1LIc28sA14Oc6b1J0zly6T5bAN0dH09g4xp6PbWE8KMwZ9SL4520O3d74z3tnL5qRL90 */(
+      int var1, int var2
+   ) {
+      super(var1, var2);
+   }
+
+   @Override
+   public int _5k0se28RPK2IN33WJfb5g4oDd7zeQlWp0LvSfJeHBZ0aVU090Eh0r7XB665/* $VF was: 45k0se28RPK2IN33WJfb5g4oDd7zeQlWp0LvSfJeHBZ0aVU090Eh0r7XB665 */(
+      Random var1
+   ) {
+      return 1;
+   }
+
+   @Override
+   public int _LTZgqX2KHwGhNpQ1gUZz1WaWt0W2TrjgClq35mEWEh8l45qEVZXQ21Rh3g0/* $VF was: 8LTZgqX2KHwGhNpQ1gUZz1WaWt0W2TrjgClq35mEWEh8l45qEVZXQ21Rh3g0 */(
+      int var1, Random var2
+   ) {
+      return 55XXM28b6p84b4G2l6B1InnTc701h21NG7n6pZPb2RkqeSGMf12ZMp058OFNNJP04Q3WjX0S3IEUdu0p0YkM1TMGm5WXG2Nme6.2L6987J7X5k4sMlvwuwwZUds8Ri7Xrx1S1835bNZ83eFJYO2Thz9bRqrBYGN
+         .01lgF9B869y98971xM904ArErwAmKW0135S3qc6W8Vi3wsv260KyANkXWhDN;
+   }
+}

@@ -1,0 +1,40 @@
+public class 1HtcL9q69w20t38E9Q5p0mtQ3A433yV9tmIrCMX0z1v5TP8o72EuKBmfh2X0DlCT22pT7Xp9ut7zOT8LDk95zVS9t0RW6F
+   extends 922HppOiy3oKliIpY4oyxno015ujjkydL0s9mCyYXRS3fAO25A8370f4R06nh9MNUr09axO4L1826Mjo4b650zoI99HzUt1 {
+   public int 5gXQ2mcAMX5RN14USF9vcQ374l00COGom66s65g021w1VeeNr01c9Z9Ju6g4;
+
+   public _HtcL9q69w20t38E9Q5p0mtQ3A433yV9tmIrCMX0z1v5TP8o72EuKBmfh2X0DlCT22pT7Xp9ut7zOT8LDk95zVS9t0RW6F/* $VF was: 1HtcL9q69w20t38E9Q5p0mtQ3A433yV9tmIrCMX0z1v5TP8o72EuKBmfh2X0DlCT22pT7Xp9ut7zOT8LDk95zVS9t0RW6F */(
+      int var1, int var2
+   ) {
+      super(var1);
+      this.1mtNVz8G4h665TJH28TCUUOgaZ5IyJ3cDwrQer0EfJ8bmMvkv3Z3Sk8753Yf = 1;
+      this.5gXQ2mcAMX5RN14USF9vcQ374l00COGom66s65g021w1VeeNr01c9Z9Ju6g4 = var2;
+   }
+
+   @Override
+   public boolean _qFkg7vuq1qgIpx2R7QYw9C5cBia34Vw1iSsgP0B6LfP7xoqd32mZGT4NGoI/* $VF was: 0qFkg7vuq1qgIpx2R7QYw9C5cBia34Vw1iSsgP0B6LfP7xoqd32mZGT4NGoI */(
+      3rOUCuPQIDJDe64mcxB6VA9TS733I0lL3LsSuARV02xx2mCq7zj73j07H7rB8T0Nq2YUK6f15Azvi1Hw0J1wbH5SInS4wGWL var1,
+      15j2Wj71WQR94S30KG9EO47lL1ya1ek98S3WZc3Bt1T97HiVvxHJ80oNi2pS51EvIhu9Tpf1kX7MWJujNGn869zpJw09325UcDi1109D1l var2,
+      86FNmx7D4iGrkOoBQgxD3UbdFD3SjZp5YE168u6iqgt91Nd59CHI76ZGIa2073MOF6jy5QYFnb9L8QO0C1zQ034TCag80h1LQ var3,
+      int var4,
+      int var5,
+      int var6,
+      int var7
+   ) {
+      int var8 = var3._vQ1ewH2pSFAU4riT691eK5NS40bSPSoWgVc0009HaIGjQ4PQIqZ4O36n2uP/* $VF was: 7vQ1ewH2pSFAU4riT691eK5NS40bSPSoWgVc0009HaIGjQ4PQIqZ4O36n2uP */(
+         var4, var5, var6
+      );
+      if (var8
+         == 9O8ggBUcYn1YTB5vbkFaSj7E1f1X81FbwFOc0fW3cEVDPzOA15I1Y6kY5H7Xr9656GbZz9xXlub52K6n1vo4z2mT5ovJAv0IW1.7b9tUZyLEZ21T873Ob35nh5emMqvpAt4y2nb2LaYH8e5l0vP7wM4k1AGDOu9
+            .8X4563TBs5E7K85YmV54x2ZH5UKnuBVs0gswhiE59069e91eI6Y1h0K06YWg) {
+         var3._P59Oe5Acfu13q3XXMe18Qs36mqpvoe154m4bKo38Q0i321FvLU9pDY5IfO2/* $VF was: 2P59Oe5Acfu13q3XXMe18Qs36mqpvoe154m4bKo38Q0i321FvLU9pDY5IfO2 */(
+            new 4j2YRvc98GVHUfm8DyyDLsBpX52aOBxRyF345qJ7czGn3hT507IL847353iDP7C2r1E9poKK83YM08osg3VH7L5l81k56ZH9(
+               var3, var4 + 0.5F, var5 + 0.5F, var6 + 0.5F, this.5gXQ2mcAMX5RN14USF9vcQ374l00COGom66s65g021w1VeeNr01c9Z9Ju6g4
+            )
+         );
+         var1.9CL9mox68rJB71t7I4CK4mo3i6HlOyGYz585sBqK8EUu53V1Fk6eK316FAyX--;
+         return true;
+      } else {
+         return false;
+      }
+   }
+}

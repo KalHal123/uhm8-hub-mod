@@ -1,0 +1,29 @@
+public class 73j17T784zzBuK4QPb99Wt1KL1PSa55t6r9P0Gd8uSk03RodIEV82m0vPUzfRk7pWjDAaTs785KvzR2ZeVShOZBhq9jrup
+   extends 692o1zsF8UC42Zb18GZziru2sHYrYJUeeryFyoYJOmZo3zhm1rpP0vyN22j4kaDicGgke5yy7FPoOZF0RCenQpGbnMCu8S5 {
+   public int 0N8d7jv4jYr76vZuc76k1a0m02ypnc6KHhWzTwMhP1IkA7uq88nS48iR784D = 0;
+
+   public _3j17T784zzBuK4QPb99Wt1KL1PSa55t6r9P0Gd8uSk03RodIEV82m0vPUzfRk7pWjDAaTs785KvzR2ZeVShOZBhq9jrup/* $VF was: 73j17T784zzBuK4QPb99Wt1KL1PSa55t6r9P0Gd8uSk03RodIEV82m0vPUzfRk7pWjDAaTs785KvzR2ZeVShOZBhq9jrup */(
+      int var1, int var2, int var3, int var4
+   ) {
+      super(var1, var2, var3);
+      this.0N8d7jv4jYr76vZuc76k1a0m02ypnc6KHhWzTwMhP1IkA7uq88nS48iR784D = var4;
+   }
+
+   @Override
+   public void _AOqzOkYXJB3l48hFv6hXjl3G7d9i82KSCR80VNwI30MW3oZ0xJCo831r7R2/* $VF was: 6AOqzOkYXJB3l48hFv6hXjl3G7d9i82KSCR80VNwI30MW3oZ0xJCo831r7R2 */(
+      5gdApI3fnTM886NnVpNF5whRWSAY3i2e4yaS902KVT3Vi20lFKKqt7hQxQ4Am9w5DexG9374FK1Y5g7W3H8w65kv4VzY var1,
+      int var2,
+      int var3,
+      int var4,
+      4GWFbOIMR3rg69M1Tw7AsIuO5A54yNk6ixz2D7h14bcq6qKB3v03aoGd8614DGBeJF7H1Bel756g1YCxyfkR0pQsk5P6wYjVNy var5
+   ) {
+      if (var5 instanceof 79wvlXox7I95GPGD55fZQPB1SUnQ8qywa89E9iA4LRMbfPn09645Nc920ps4O0cxXs2AQWxT9mPxAy0n61w1nZDa76qM6h) {
+         ((79wvlXox7I95GPGD55fZQPB1SUnQ8qywa89E9iA4LRMbfPn09645Nc920ps4O0cxXs2AQWxT9mPxAy0n61w1nZDa76qM6h)var5)
+            ._KVP0087upbu9oT7Sj6j1NQ15ODtvKPDW5vLImYl9eG968R82ZcE9zSLSZyg/* $VF was: 1KVP0087upbu9oT7Sj6j1NQ15ODtvKPDW5vLImYl9eG968R82ZcE9zSLSZyg */(
+               (4GWFbOIMR3rg69M1Tw7AsIuO5A54yNk6ixz2D7h14bcq6qKB3v03aoGd8614DGBeJF7H1Bel756g1YCxyfkR0pQsk5P6wYjVNy)null,
+               2 * this.0N8d7jv4jYr76vZuc76k1a0m02ypnc6KHhWzTwMhP1IkA7uq88nS48iR784D
+            );
+         ((79wvlXox7I95GPGD55fZQPB1SUnQ8qywa89E9iA4LRMbfPn09645Nc920ps4O0cxXs2AQWxT9mPxAy0n61w1nZDa76qM6h)var5).4ED8C1kJ9X01CwQyL4g6BbSEgfszAxW605959se6gbK0e5vL1V2SO1A025S2 = 300;
+      }
+   }
+}
