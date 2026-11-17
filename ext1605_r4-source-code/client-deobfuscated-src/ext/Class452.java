@@ -1,0 +1,30 @@
+package ext;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+
+public class Class452 extends Class333 {
+   public Class452() {
+      this.field_727 = true;
+   }
+
+   @Override
+   public void method_1135(DataInputStream var1) throws IOException {
+      super.method_1135(var1);
+      this.field_2629 = var1.readByte();
+      this.field_959 = var1.readByte();
+   }
+
+   @Override
+   public void method_805(DataOutputStream var1) throws IOException {
+      super.method_805(var1);
+      var1.writeByte(this.field_2629);
+      var1.writeByte(this.field_959);
+   }
+
+   @Override
+   public int method_1597() {
+      return 6;
+   }
+}
