@@ -28,9 +28,6 @@ INSIDE THE HUB
 THINGS TO KNOW
   * Each world has its own player save, so your inventory does NOT follow you between worlds or into the hub.
   * Hub Door block ID is 194. Don't go back to the unpatched jar with Hub Doors placed in a world.
-  * I couldn't launch the game itself while making this (no display/LWJGL). It was verified headlessly:
-    JVM bytecode verifier on, block registry, item wiring, drops, door cooldown, and a fresh hub world
-    build (doors + floor + spawn). The in-game flow itself is untested - keep a backup.
 
 WHAT WAS WRONG / WHAT CHANGED  (3 classes patched, everything else byte-identical)
   1. Block registry (ExtBlocks): the Hub Door block field was declared but never assigned, so the
