@@ -1,7 +1,7 @@
 {
  "3pM16fm5121V70RYJj0eP83d1MLLVmQLtMglL7yDxt13xF3Oq3R432Q757O7BngY9z4c42wCLRI1NXpkHEio4qxgUcn.class": {
   "orig": "8692ec3a2178d48e1627defb265243eb1ff75ed72990988549c8fcee056b2b8a",
-  "patched": "dc4d7f15f97aae04970271873c5fcf1b69979c6c25d08373f718ba098ed8316d"
+  "patched": "5cf5982c178ee4d60747151770e1ca4df1fc6e23c7e9ef23f27c8a31d1f30d1f"
  },
  "4o1fC67C3ib7OG1q0Ru4615KorPqPtumwI3cxETG8ch1cILv9mOTo12iY8l4uKp2r3pQv4Jz6b76HWLc4nB7895GvMshP0RV.class": {
   "orig": "222c1c6938d43fc08598f7d2e7a80a31e2c35a385defe5a425bf5768dc87435a",
@@ -9,6 +9,14 @@
  },
  "7XdlAOp7XckOje04de7ABA9F884wwnr6If64CVJj628g43i49363cBhRp98803WX78LMz1Brfwq184d66GuuJHlEN9KGq7m.class": {
   "orig": "bfb5456190627fa5429cc196bf75a658ca1542bb2bacfec111bc3817c3879b95",
-  "patched": "1f7d74f05aa7f9ef7f46dd2946c8b400c390f3a5f1774e14390b659952696630"
+  "patched": "8108050fb4f70ac088b86dcea91d3fe026f6e20baa531b8fce634172fd122703"
+ },
+ "12874Mp6Xr24mmO7cD83v81mdgrVPxhzoBx16QrLsA9FOF5i8D5IPC29po16K7Bd5h9L5n58A371PBxz4jE7Ctasoq1.class": {
+  "orig": "0f081279eba624ffc2821bc928c5eabaec366ac643a3d36ffeeed90ff98033a4",
+  "patched": "38e8d802a4637a52cb24653cd7909821ae2e3c587bc1f4cc7ef95ba0617b24ff"
+ },
+ "net/minecraft/client/Minecraft.class": {
+  "orig": "d769342e5a3334dcd455e74d85520569eb7962a6795a1608e64b46ae13e37dff",
+  "patched": "273d643870d08a3558538821ac1dc1c9ff64de7c7f9b785ef262bfb7a47d523d"
  }
 }

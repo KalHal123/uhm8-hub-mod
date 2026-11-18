@@ -40,4 +40,26 @@ public class N {
   public static final String M_8Mhk7 = "8Mhk7C10GKveoZ664u4161VBDfo5tf38Y4ptrW75I6q717CYI2nkh9HkXmFm";
   public static final String D_8Mhk7 = "()V";
   public static final String F_BLOCKID = "6eYzDMQF09g6izPuwQHhO952GYS7T3Drt11u0692dlqn6aEztEFQqC6uvfv0";
+  public static final String M_STARTWORLD = "3aYeA7ake0QjnoN2mM18RmjL87K61kJ6LTR6757eYWVL92EF6a2A12Lc978r";
+  public static final String F_MCWORLD = "8D1HRxTuOIR0Ym42loo9d0NS42Qp45kaXeR154x9Ri712QaegW563ZU96VM0";
+  public static final String F_MCPLAYER = "8m10eD4o1nI4Yvt03uA2QMfUSGy4I2qp5qLsfQsDidFNBgCWTWjd2T5zayR5";
+  public static final String M_GETMCDIR = "74365lSUZG8SRi4QcP0LdVO61o0N3570jYi74Tv6MwBh3c90i6CydLQuxD79";
+  public static final String F_POSX = "497Ny8ieOOsR16Sz600331Tse4JQLpB9t68N055JeLhS6p82x0V6dPP7m43N";
+  public static final String F_POSY = "8FECN1K2ZwI9gQQLDHe1k9PtBM7o0SIgR9IuNw1V282G0Sv8h5T952A1BGX8";
+  public static final String F_POSZ = "68900A16KVY7SEiF2YQ3hM0ZG79rACr5q730w1yAkf6oUgPjo4rVq892edT0";
+  public static final String CHUNK = "9m2wWv7Y0P6wvrh59Qp3DG2Cs297QBiT9d3C2Ym8a3VBQf0y8ksZza1rWedXIKg0UcWrch6Q377o8vJ607zis39k6dbDXymg";
+  public static final String CH_BLOCKS = "8T8IepYnrzFOjji5OuyOOYtCH2GVi1s64tu5Oy9J14V72m240Wm4cm6i657c";
+  public static final String CH_NIB1 = "88n5Vts6vV22TX1rmbB5sbt7Q9Z26i5gs94O622EyW3SQdK40E78FRe3STg5";
+  public static final String CH_NIB2 = "4B84Pj946Xce6s563QspES3mRd0Vq08shyl1zeaI94I9o1HQ7Xt43g59L7Ib";
+  public static final String CH_NIB3 = "48x2QINJ91Qy8r337j8yKk3oKS09kMONT8T62jRZkOUXeLhsi124wchdZCzL";
+  public static final String NIBBLE = "1g9c5c64er1Be7481671w4l8713i0q3v6Ltd8C00Ga4ee0tD4lxHX27l9oSknv514rpN2bpn8Jb130XJ5rQ4Ph8lI62OShchMVQ";
+  public static final String NIB_BYTES = "2qJmXbD7pIj51567xH8s8do34al46ZlD85d5uCwBvXM2G71g6icxNIG8LttU";
+  public static final String HUBGEN = "12874Mp6Xr24mmO7cD83v81mdgrVPxhzoBx16QrLsA9FOF5i8D5IPC29po16K7Bd5h9L5n58A371PBxz4jE7Ctasoq1";
+  public static final String M_GETCHUNK = "6uz6MEe3z610A8yihFN1eCW159ctDGOl6n48O7y7X2q0Yixy69v50LXjBrL0";
+  public static final String M_CHUNKLIGHT = "7cHEd94q6990yu4c5ItNvmfW5GkZnS4H53ju824e46G6nHB89nt0MLB5hkyZ";
+  public static final String T_MCPLAYER = "799HmGi6Zuy2VT1N48Y2QeMvKB1kN289S0Wi1ZI6k06AYWM1KH5P5G3B0ENil5eN9S04g8Smf14y9GkpkeoGdCZza90SL14j";
+  public static final String D_STARTWORLD = "(Ljava/lang/String;)V";
+  public static final String F_SPAWNX = "01d2ssfM8LK4kLnkL0u9ml4w6nuErqGh8449WV70OP842UK6VcDJe9tV4Grf";
+  public static final String F_SPAWNY = "2qXgf6CW6qvavh8I3313k0Br37Ik2hhAUd7xfLC13uj2gjOBWB5gLwDf4iI6";
+  public static final String F_SPAWNZ = "454PK5YFHgg4V8nk6oaJ64rpp4Dh0q7eMb5wMYTYAHf3McQ84p854xN8i0y6";
 }

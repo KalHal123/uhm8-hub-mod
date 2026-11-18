@@ -4,7 +4,7 @@
 # usage:  ./apply_patch.sh path/to/ext1605_20_client.jar
 #
 # Writes  ext1605_20_client_hubfix.jar  next to the original. The original is never modified.
-# The script refuses to run on a jar whose 3 target classes differ from the build it was made for.
+# The script refuses to run on a jar whose target classes differ from the build it was made for.
 #
 # Needs: unzip, zip, awk, and one of sha256sum / shasum / openssl  (plain POSIX sh, no bashisms)
 
@@ -75,5 +75,15 @@ while read -r cls orig patched; do
   ( cd "$here/classes" && zip -q "$dst" "$cls" ) || { rm -f "$dst"; die "ERROR: failed to write $(short "$cls") into the jar."; }
   echo "  replaced $(short "$cls")"
 done < "$tmp/manifest.txt"
+
+# Add the new helper classes (HubMaze / HubNet), listed in classes/added.txt.
+if [ -f "$here/classes/added.txt" ]; then
+  while read -r f; do
+    [ -n "$f" ] || continue
+    [ -f "$here/classes/$f" ] || { rm -f "$dst"; die "ERROR: classes/$f is missing."; }
+    ( cd "$here/classes" && zip -q "$dst" "$f" ) || { rm -f "$dst"; die "ERROR: failed to add $f to the jar."; }
+    echo "  added    $f"
+  done < "$here/classes/added.txt"
+fi
 
 echo "Done. Back up your original jar, then use the new one."
