@@ -14,10 +14,13 @@ Easiest: grab `ext1605_20_client_hubfix.jar` from Releases and use it instead of
 
 Or patch your own jar (your original is never touched, a new `ext1605_20_client_hubfix.jar` is written next to it):
 
-The patcher also applies the watermark: the title bar will read
-`Minecraft Alpha v1.0.16.05_20 Cypress + uhm8-hub-mod v20261118.1` so you can tell the patched client from the stock one.
-
+The patcher also applies a watermark — the title bar will read:
 ```
+Minecraft Alpha v1.0.16.05_20 Cypress + uhm8-hub-mod v20261118.1
+```
+so you can tell the patched client from the stock one.
+
+```bash
 python3 apply_patch.py path/to/ext1605_20_client.jar
 ```
 
@@ -70,9 +73,9 @@ Instances find each other through a folder in `<java.io.tmpdir>/cypress-hub-<use
 
 ## Outline/Roadmap for the future
 
-- ~~getting the world generation code working and rebuilding the hub dimension~~ maze done, adding missing blocks still open
-- getting the networking working at least locally (doors between local instances work via snapshots, live play still open)
-- finnaly creating a headless server runable by anyone and making the final build with networking fully functional like in the original
+- Getting world generation code working and rebuilding the hub dimension — maze done, adding missing blocks still open.
+- Getting networking working at least locally (doors between local instances work via snapshots; live play still open).
+- Finally creating a headless server runnable by anyone and making the final build with networking fully functional like in the original.
 
 ## What changed (5 classes replaced, 5 added)
 * `ExtBlocks`: Hub Door block (ID 194) registered.  `BlockHubDoor`: drops itself, routes through HubNet, cooldown.
