@@ -1,0 +1,68 @@
+package x;
+
+import java.util.Objects;
+
+public class Class0315 {
+   public int 1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79;
+   public int 32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr;
+
+   public Class0315(Class0315 var1) {
+      this(var1.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79, var1.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr);
+   }
+
+   public Class0315(int var1, int var2) {
+      this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79 = var1;
+      this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr = var2;
+   }
+
+   public int _RZE0BvtoHwqL73YktylDNPYm3uL81Mee94920Z6o9GUBvF9wp2v0d3G1L3S/* $VF was: 8RZE0BvtoHwqL73YktylDNPYm3uL81Mee94920Z6o9GUBvF9wp2v0d3G1L3S */() {
+      return this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79;
+   }
+
+   public int _7t5YHOBGYS1J2U6L0X4mfU1Vfshr44NEj6oe89zoU0U14gUYpDvHB4HAAS0/* $VF was: 27t5YHOBGYS1J2U6L0X4mfU1Vfshr44NEj6oe89zoU0U14gUYpDvHB4HAAS0 */() {
+      return this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr;
+   }
+
+   public Class0315 _Mod6ulu85qHy97j7Z5J4HCDk1UUjyqb4UIIVzdJ1Ld1AdpqDb3Sxft5Wg7e/* $VF was: 8Mod6ulu85qHy97j7Z5J4HCDk1UUjyqb4UIIVzdJ1Ld1AdpqDb3Sxft5Wg7e */(
+      int var1
+   ) {
+      return new Class0315(
+         this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79 * var1, this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr * var1
+      );
+   }
+
+   public void _bKOHFfIAAjCt0KOA2sQbh9iJY8V43s5475jQOSLx7Qt17LnSf3ryxfV7081/* $VF was: 7bKOHFfIAAjCt0KOA2sQbh9iJY8V43s5475jQOSLx7Qt17LnSf3ryxfV7081 */(
+      int var1, int var2
+   ) {
+      this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79 += var1;
+      this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr += var2;
+   }
+
+   public Class0315 _h5SgVf4d2b0P7V64CX9XppbjHD2KCR03VLMdMVOPuKOUJCgZ0nxH8Q0G8kR/* $VF was: 6h5SgVf4d2b0P7V64CX9XppbjHD2KCR03VLMdMVOPuKOUJCgZ0nxH8Q0G8kR */(
+      int var1, int var2
+   ) {
+      return new Class0315(
+         this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79 + var1, this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr + var2
+      );
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      if (this == var1) {
+         return true;
+      }
+
+      if (!(var1 instanceof Class0315)) {
+         return false;
+      }
+
+      Class0315 var2 = (Class0315)var1;
+      return this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79 == var2.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79
+         && this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr == var2.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr;
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hash(this.1D8m5U4GB4arPZ7684Hb9CP8F458GRgW52CH7KZ90VYC8IWzRz99xA26eD79, this.32JU2hh89MNsO4JlDTayzXSS4478EYm4xoxn215WA3dTx34UhYR5myk8cpzr);
+   }
+}

@@ -1,3 +1,14 @@
 work
 archive
 .env
+
+# minecraft runtime options file (created at runtime)
+options.cfg
+
+# old reference sources superseded by the decompile pipeline
+reference/archive/
+
+# cypress-client decompile is huge (~400MB, embeds sounddata); regenerate with
+#   tools/decompile/decompile.sh cypress-client work/jars/ext1605_20_client.jar
+reference/decompiled/cypress-client/raw/
+reference/decompiled/cypress-client/deobf/

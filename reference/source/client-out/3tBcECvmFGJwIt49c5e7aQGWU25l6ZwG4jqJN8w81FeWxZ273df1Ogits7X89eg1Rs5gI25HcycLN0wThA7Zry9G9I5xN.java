@@ -1,2 +1,0 @@
-public class 3tBcECvmFGJwIt49c5e7aQGWU25l6ZwG4jqJN8w81FeWxZ273df1Ogits7X89eg1Rs5gI25HcycLN0wThA7Zry9G9I5xN extends Error {
-}

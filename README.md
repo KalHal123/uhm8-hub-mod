@@ -71,7 +71,29 @@ Instances find each other through a folder in `<java.io.tmpdir>/cypress-hub-<use
 - `work/jars/` — the working jars (official client + server).
 - `work/releases/` — built patched jars.
 - `work/handoff/` — handoff summaries per session.
-- `reference/source/` — decompiled (not deobfuscated) client and server source, from the wiki.
+- `reference/source/` — decompiled (not deobfuscated) client and server source, from the wiki. **Archived in `reference/archive/` (superseded).**
+- `reference/decompiled/` — **new decompile pipeline output.** See below.
+
+## Decompilation + class-deobfuscation pipeline
+
+The old `reference/source/` trees came from a pre-made wiki dump and used a *different* class naming scheme (`ext/ClassNNN`), so they did not line up with the actual bytecode. The new pipeline below produces a **deterministic, reproducible** deobfuscation of any jar in `work/jars/`:
+
+- **decompile** — Vineflower 1.12.0 (runs on JDK 21; the repo's default `java` is JDK 8, so the script uses `JAVA21`).
+- **class-level deobfuscation** — a hand-rolled ASM `ClassRemapper` (`tools/decompile/RemapJar.java`) renames every obfuscated class to `x/ClassNNN` in a stable order (sorted by original name). Packages under `net/minecraft/**`, `com/jcraft/**`, `paulscode/**`, `org/lwglx/**` keep their names. Inner classes keep their `$N` suffix.
+- **output** — `reference/decompiled/<label>/` with `raw/` (obfuscated decompile), `deobf/` (renamed decompile), and `_mapping.txt` (obf → new name, one line per class).
+
+```bash
+# alpha 1.0.16.02 (the actual runtime the hub code targets)
+tools/decompile/decompile.sh alpha-1.0.16.02 work/jars/a1.0.16_02.jar
+
+# the Cypress client jar (the one the patcher consumes)
+tools/decompile/decompile.sh cypress-client work/jars/ext1605_20_client.jar
+
+# the Cypress server jar
+tools/decompile/decompile.sh cypress-server work/jars/ext1605_20_server.jar
+```
+
+All three are already built. The cypress-client tree is large (~400 MB because it embeds `sounddata/`); the useful source is under `deobf/x/`, `deobf/net/`, `deobf/ext1605/`, etc. The alpha tree is the one to read when working on hub code — its class names line up with what `source/` references.
 
 ## Outline/Roadmap for the future
 

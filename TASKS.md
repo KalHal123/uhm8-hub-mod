@@ -89,3 +89,27 @@ cp work/jars/ext1605_20_client_hubfix.jar \
 Only needed if `source/*.java` changed (HubMaze, HubNet, Patcher, etc.) and you must regenerate `classes/*.class`.
 This needs JDK 21 with internal ASM exported. See `work/handoff/202611182128/rebuild_env.sh` and `HANDOFF §4`.
 Not required for TASK A/B if `classes/` is already up to date.
+
+---
+
+## TASK D — Build decompiled reference trees
+
+**What it does:** runs `tools/decompile/decompile.sh` on each jar in `work/jars/`, producing reproducible, class-level deobfuscated sources in `reference/decompiled/`.
+
+**When to run:** once after a fresh check-out, or when `work/jars/*.jar` changes (e.g. a new official client release).
+
+**Command** (run from repo root):
+```bash
+# base game — the one to read when working on hub code
+tools/decompile/decompile.sh alpha-1.0.16.02 work/jars/a1.0.16_02.jar
+
+# Cypress client (the patcher consumes this one)
+tools/decompile/decompile.sh cypress-client work/jars/ext1605_20_client.jar
+
+# Cypress server (same game, server classes only)
+tools/decompile/decompile.sh cypress-server work/jars/ext1605_20_server.jar
+```
+
+**Why:** the old `reference/source/` came from an uncopyrighted wiki dump and used opaque names (`ext/Class61`) that do not line up with the actual bytecode. The new pipeline uses Vineflower (cleaner than CFR) plus a deterministic ASM rename (`x/ClassNNN`), so `reference/decompiled/alpha-1.0.16.02/` gives a stable, readable view of Minecraft alpha 1.0.16.02 — `net/minecraft/` contains `Minecraft`, `Block`, `Item`, `Entity`, etc., and `x/` holds the rest.
+
+All three trees are already built. The cypress-client tree is large (~400 MB) and is gitignored; regenerate locally when needed.

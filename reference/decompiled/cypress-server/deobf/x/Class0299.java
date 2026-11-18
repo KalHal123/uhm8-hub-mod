@@ -1,0 +1,17 @@
+package x;
+
+public enum Class0299 {
+   2Gr7fkHW37LfYGs35gCp4Fe4zD2xH45x6jz98f5Dp1hvT9o9oeeAHunOYOEt,
+   10Hr2Lu7melzU146GMOk49vbIy45951ADUMz2m7zi1x815699T1HPx82s430,
+   638mQIr5LLV0Lr67z0o4g7uB07nd8P6ydSxAiqf97q6Q89F4K8i49S4lk3f4;
+
+   public static Class0299[] _WZ23w5Eo7xzIwM5p9j37UQow8g6H96cXiBpHpfbU1ZOgff3q9gqstvGaA56/* $VF was: 1WZ23w5Eo7xzIwM5p9j37UQow8g6H96cXiBpHpfbU1ZOgff3q9gqstvGaA56 */() {
+      return (Class0299[])668M44747yut2BPLmVAWRJQZdNo8o5IF8WTHgELF708qQJ8kzyFX6608A5M6.clone();
+   }
+
+   public static Class0299 _l1LH2N0CgB6C4NhM8jmRyphphH8pV341zcuZ8NavIHi3tYycF6y6th94nB3/* $VF was: 4l1LH2N0CgB6C4NhM8jmRyphphH8pV341zcuZ8NavIHi3tYycF6y6th94nB3 */(
+      String var0
+   ) {
+      return Enum.valueOf(Class0299.class, var0);
+   }
+}
