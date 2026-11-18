@@ -160,7 +160,7 @@ public class Patcher {
         cn.methods.add(noop);
 
         // (c) four Hub Doors around the spawn point (0,1,0), added only into empty cells
-        int[][] doors = { {0, 4, 0}, {4, 0, 1}, {0, -4, 2}, {-4, 0, 3} };   // x, z, facing meta
+        int[][] doors = { {0, 4, 0}, {4, 0, 1} };   // x, z, facing meta
         InsnList add = new InsnList();
         for (int[] d : doors) {
             LabelNode skip = new LabelNode();
