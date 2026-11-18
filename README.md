@@ -3,8 +3,13 @@
 Builds on the Hub Door fix. The hub is now the maze from the wiki/video, and doors in it connect two (or more) game
 instances running on the same computer.
 
+Singleplayer only. The server jar doesn't need anything.
+
+DO NOT BUILD THE CYPRESS JAR FROM THE SOURCE CODE PROVIDED HERE, IT IS ONLY FOR DEVELOPMENT AND HAS NOT BEEN VERIFIED AND COULD BE BROKEN. The patcher will *only* accept the official Cypress jar from the wiki, download it here:
+https://archive.org/download/ext1605_20_client/ext1605_20_client.jar
+
 ## Install
-Use `ext1605_20_client_hubfix.jar`, or patch your own jar (original is never touched):
+Easiest: grab `ext1605_20_client_hubfix.jar` from Releases. Or patch your own jar (original is never touched):
 
     python apply_patch.py path/to/ext1605_20_client.jar      # or: ./apply_patch.sh path/to/ext1605_20_client.jar
 
@@ -18,7 +23,8 @@ The patcher only runs on the exact build it was made for.
 
 ## Using it
 1. In a world: console key, `sv_cheats 1`, `bind 25 +mc_creatmenu`, press P, Items tab, take **Hub Door**, place it, walk in.
-   (If the console key does nothing on a German keyboard, rebind "Open console" in Options > Controls, e.g. to F4.)
+   (If the console key does nothing on a German keyboard, rebind "Open console" in Options > Controls, e.g. to F4.
+   If `sv_cheats` doesn't work, hold Pause + Scroll Lock + Insert, press F12 and toggle "Enable cheats".)
 2. You arrive in the hub maze (a 102x102 block maze, 3-wide hallways). Spawn is in the middle.
    * **Door in the start room** = home: back to the world you came from.
    * **Doors in dead ends** (with a little pond beside them) = visit the other instance's world.
@@ -41,6 +47,7 @@ The old flat hub (`saves/hub`) is no longer used.
 ## Not implemented / limits
 * Not live: you cannot see the other player; each instance has its own copy of the (identical, deterministic) hub.
 * Inventory does not carry between worlds. Each world has its own player save.
+* Hub Door is block ID 194. Don't load a world with Hub Doors in it on the unpatched jar.
 * No diagonal hallways or outdoor ladder bubbles from the wiki. Layout is a seeded perfect maze plus some loops.
 * Not tested inside the real game (no display here). Tested headlessly against the game's own classes with the verifier on:
   maze generation through the real chunk generator (62,424 blocks, metadata and light all identical to the model),
@@ -51,3 +58,13 @@ The old flat hub (`saves/hub`) is no longer used.
 * `HubWorld`: save folder `hubmaze`, spawn in the start cell, no endless spawn search.
 * Hub chunk generator: calls `HubMaze.fill` (blocks, door/torch metadata, precomputed block light).
 * `Minecraft.startWorld`: registers the instance.  New: `HubMaze`, `HubNet` (+ inner classes). Source in `source/`.
+
+## Repo
+* `classes/` patched and added classes (plus `manifest.json` / `added.txt` used by the patcher)
+* `source/` Java source of the patch (`HubMaze`, `HubNet`, `Patcher`)
+* `ext1605_r4-source-code/` decompiled (not deobfuscated) client and server source, from the wiki
+
+## Outline/Roadmap for the future
+* ~~getting the world generation code working and rebuilding the hub dimension~~ done (the maze). Still open: diagonal hallways, ladder bubbles, any missing blocks
+* getting the networking working locally: partly done (doors between local instances via world snapshots), live play is still open
+* finally creating a headless server runnable by anyone and making the final build with networking fully functional like in the original
