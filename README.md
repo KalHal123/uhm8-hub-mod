@@ -47,3 +47,9 @@ You land on a flat floor with four Hub Doors around you. Walk into one to pick a
 - `classes/` patched classes
 - `source/` the patcher source
 - `ext1605_r4-source-code/` decompiled (not deobfuscated) client and server source, from the wiki
+
+## Outline for the future
+
+- getting the world generation code working and rebuilding the hub dimension + adding missing blocks
+- getting the networking working at least locally
+- finnaly creating a headless server runable by anyone and making the final build with networking fully functional like in the original
