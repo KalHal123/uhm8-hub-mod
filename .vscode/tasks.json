@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Hub Jar (watermark + patches)",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-c",
+        "python3 apply_patch.py dontpushme/jars/ext1605_20_client.jar && cp -f dontpushme/jars/ext1605_20_client_hubfix.jar dontpushme/releases/v20261118/ext1605_20_client_hubfix_watermark.jar"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": {
+        "owner": "python",
+        "fileLocation": {
+          "pattern": "**/*.py"
+        }
+      }
+    }
+  ]
+}
