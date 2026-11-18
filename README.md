@@ -30,8 +30,6 @@ python3 apply_patch.py path/to/ext1605_20_client.jar
 3. In each instance start a world once (that registers the instance with the local hub registry).
    They do not need to be running at the same time; the other instance only needs to have started a world before.
 
-No Python? `./apply_patch.sh path/to/ext1605_20_client.jar` does the same thing (needs `unzip`, `zip`, `awk`).
-
 The patcher only runs on the exact build it was made for and refuses anything else.
 
 ## Getting to the hub
@@ -67,9 +65,13 @@ Instances find each other through a folder in `<java.io.tmpdir>/cypress-hub-<use
 
 ## Repo
 
-- `classes/` patched classes
-- `source/` the patcher and hub source
-- `ext1605_r4-source-code/` decompiled (not deobfuscated) client and server source, from the wiki
+- `apply_patch.py` — patcher: replaces classes from `classes/` into the target jar, adds new classes, applies the watermark.
+- `classes/` — patch data: `manifest.json` (orig/patched SHA-256 per class), `added.txt` (new classes), patched class files.
+- `source/` — the patcher and hub source (client: `HubMaze`, `HubNet`, `Patcher`, `N`, `HubDoorS`; server: `HubServer`, `HubDoorS`).
+- `work/jars/` — the working jars (official client + server).
+- `work/releases/` — built patched jars.
+- `work/handoff/` — handoff summaries per session.
+- `reference/source/` — decompiled (not deobfuscated) client and server source, from the wiki.
 
 ## Outline/Roadmap for the future
 
