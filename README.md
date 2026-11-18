@@ -52,7 +52,7 @@ You land on a flat floor with four Hub Doors around you. Walk into one to pick a
 - `source/` the patcher source
 - `ext1605_r4-source-code/` decompiled (not deobfuscated) client and server source, from the wiki
 
-## Outline for the future
+## Outline/Roadmap for the future
 
 - getting the world generation code working and rebuilding the hub dimension + adding missing blocks
 - getting the networking working at least locally
