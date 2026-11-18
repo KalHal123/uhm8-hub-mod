@@ -4,7 +4,7 @@ The Hub Door in Cypress / Extension 16.05 R4 is broken in the stock client: the 
 
 Singleplayer only. The server jar doesn't need anything.
 
-## DO NOT BUILD THE CYPRESS JAR FROM THE SOURCE CODE PROVIDED HERE IT IS ONLY FOR DEVELOPMENT AND HAS NOT BEEN VERIFIED AND COULD BE BROKEN. The patcher will *only* accept the official Cypress jar from the wiki, download it here:
+### DO NOT BUILD THE CYPRESS JAR FROM THE SOURCE CODE PROVIDED HERE IT IS ONLY FOR DEVELOPMENT AND HAS NOT BEEN VERIFIED AND COULD BE BROKEN. The patcher will *only* accept the official Cypress jar from the wiki, download it here:
 https://archive.org/download/ext1605_20_client/ext1605_20_client.jar
 
 
