@@ -14,9 +14,18 @@ Easiest: grab `ext1605_20_client_hubfix.jar` from Releases and use it instead of
 
 Or patch your own jar (your original is never touched, a new `ext1605_20_client_hubfix.jar` is written next to it):
 
+The patcher also applies the watermark: the title bar will read
+`Minecraft Alpha v1.0.16.05_20 Cypress + uhm8-hub-mod v20261118.1` so you can tell the patched client from the stock one.
+
 ```
-python apply_patch.py path/to/ext1605_20_client.jar
+python3 apply_patch.py path/to/ext1605_20_client.jar
 ```
+
+## Two instances in Prism Launcher
+1. Create two Alpha a1.0.16 instances (e.g. "Alpha A" and "Alpha B"). Each gets its own game folder and `saves/`.
+2. In both: Edit Instance > Version > Replace Minecraft.jar > pick `ext1605_20_client_hubfix.jar`.
+3. In each instance start a world once (that registers the instance with the local hub registry).
+   They do not need to be running at the same time; the other instance only needs to have started a world before.
 
 No Python? `./apply_patch.sh path/to/ext1605_20_client.jar` does the same thing (needs `unzip`, `zip`, `awk`).
 
@@ -65,3 +74,12 @@ Instances find each other through a folder in `<java.io.tmpdir>/cypress-hub-<use
 - getting the networking working at least locally (doors between local instances work via snapshots, live play still open)
 - finnaly creating a headless server runable by anyone and making the final build with networking fully functional like in the original
 
+## What changed (5 classes replaced, 5 added)
+* `ExtBlocks`: Hub Door block (ID 194) registered.  `BlockHubDoor`: drops itself, routes through HubNet, cooldown.
+* `HubWorld`: save folder `hubmaze`, spawn in the start cell, no endless spawn search.
+* Hub chunk generator: calls `HubMaze.fill` (blocks, door/torch metadata, precomputed block light).
+* `Minecraft.startWorld`: registers the instance.  New: `HubMaze`, `HubNet` (+ inner classes). Source in `source/`.
+
+## Server-side patch (in progress: Stage 1 of roadmap)
+The dedicated server jar gets the same hub: `HubServer` (redirects), `HubMaze.fill` origin support, `HubDoorS`
+(BlockDoor), chunk provider dispatch via `-Dcypress.hubserver=true`. Source in `source/HubServer.java`.
