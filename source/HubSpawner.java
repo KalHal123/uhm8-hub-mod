@@ -2,7 +2,7 @@ import java.lang.reflect.Method;
 import java.util.Random;
 
 /**
- * Rarely places a Hub Door on the surface of a freshly populated overworld chunk.
+ * Rarely places a Hub Door on the surface of a freshley populated overworld chunk.
  * Pure Java; the patched terrain generator hands over the world and the (obfuscated) method names.
  */
 public final class HubSpawner {

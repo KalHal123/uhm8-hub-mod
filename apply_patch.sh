@@ -3,7 +3,7 @@
 #
 # usage:  ./apply_patch.sh path/to/ext1605_20_client.jar
 #
-# Writes  ext1605_20_client_hubfix.jar  next to the original. The original is never modified.
+# Writes  ext1605_20_client_hubfix.jar  next to the original. The original is never modifed.
 # The script refuses to run on a jar whose target classes differ from the build it was made for.
 #
 # Needs: unzip, zip, awk, and one of sha256sum / shasum / openssl  (plain POSIX sh, no bashisms)

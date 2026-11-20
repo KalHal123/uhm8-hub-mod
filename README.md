@@ -4,7 +4,7 @@ The Hub Door in Cypress / Extension 16.05 R4 is broken in the stock client: the 
 
 Singleplayer only. The server jar doesn't need anything.
 
-DO NOT BUILD THE CYPRESS JAR FROM THE SOURCE CODE PROVIDED HERE, IT IS ONLY FOR DEVELOPMENT AND HAS NOT BEEN VERIFIED AND COULD BE BROKEN. The patcher will *only* accept the official Cypress jar from the wiki, download it here:
+DO NOT BUILD THE CYPRESS JAR FROM THE SOURCE CODE PROVIDED HERE, IT IS ONLY FOR DEVELOPMENT AND HAS NOT BEEN VERIFIED AND COULD BE BROKEN. The patcher will *only* accept the official Cypress jar from the wiki, downlaod it here:
 https://archive.org/download/ext1605_20_client/ext1605_20_client.jar
 
 ## Install
@@ -50,9 +50,9 @@ You land in the middle of a 102x102 block maze with 3-wide hallways, a tiled flo
 
 - Inventory doesn't carry between worlds or the hub. Each world has its own player save.
 - The hub is saved in `saves/hubmaze` (delete it to regenerate).
-- Overworld Hub Doors only appear in chunks generated after the patch is installed; areas you've already explored are untouched.
+- Overworld Hub Doors only appear in chunks genrated after the patch is installed; areas you've already explored are untouched.
 - Hub Door is block ID 194. Don't load a world with Hub Doors in it on the unpatched jar.
-- No multiplayer hub yet, no diagonal hallways or ladder bubbles yet. Mostly tested headlessly, not extensively in the real game.
+- No multiplayer hub yet, no diagonal hallways or ladder bubbles yet. Mostly tested headlessly, not extensivly in the real game.
 
 ## Repo
 
