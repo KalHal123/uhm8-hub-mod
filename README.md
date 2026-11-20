@@ -1,6 +1,6 @@
 # Hub Door fix for Extension 16.05 R4
 
-## [Watch Video Showcase](https://cdn.discordapp.com/attachments/1026179019735052288/1573299235703623801/readycypressvideo_720p30.mp4)
+## [Watch Video Showcase](https://kalhal123.github.io/readycypressvideo_720p30.mp4)
 
 The Hub Door in Cypress / Extension 16.05 R4 is broken in the stock client: the item exists but the block doesn't, and a new hub never finishes loading. This patches `ext1605_20_client.jar` so it works. The hub is a maze dimension: Hub Doors rarely appear in the overworld and lead into it, and every door inside the maze opens the world picker so you can jump to any of your worlds.
 
