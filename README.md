@@ -1,5 +1,5 @@
 # Hub Dimension for Extension 16.05 R4  (version v20261119)
-
+ 
 The hub is now simply a dimension: you reach it through Hub Doors that rarely appear in the overworld, you walk the
 hub maze, and every door inside the maze opens the world picker so you can jump to any of your worlds.
 The earlier experiment with several game instances, registries and world snapshots has been removed completely.
