@@ -22,7 +22,7 @@ so you can tell the patched client from the stock one.
 ```bash
 python3 apply_patch.py path/to/ext1605_20_client.jar
 ```
-
+ 
 The patcher only runs on the exact build it was made for and refuses anything else.
 
 ## Getting to the hub
