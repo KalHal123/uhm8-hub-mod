@@ -10,9 +10,6 @@ import java.util.*;
  *   - Dimension Wall walls, green/blue tile floor, torches high on walls,
  *     green glass windows with a "greenscreen" block behind them, green pillars at some junctions.
  *   - Hub Doors in dead ends (with a small pond beside them) and one "home" door in the start cell.
- *   - Origin: world position of the maze start cell center. Default (0,0) means the maze
- *     starts at the calculated offset; setOrigin(ox, oz) shifts the whole maze so the start cell
- *     center is at world (0,0).
  */
 public final class HubMaze {
     // block ids of this build
@@ -31,9 +28,6 @@ public final class HubMaze {
     public static final List<int[]> DOORS = new ArrayList<int[]>();
     private static final Map<Long, Integer> doorKind = new HashMap<Long, Integer>();
     public static final int START_I = W / 2, START_J = H / 2;
-
-    // origin: world offset so that start cell center is at (originX + startX(), originZ + startZ())
-    private static int originX = 0, originZ = 0;
 
     // ------------------------------------------------------------------ helpers
     private static int idx(int x, int z, int y) { return (x * SZ + z) * SY + y; }
@@ -222,13 +216,8 @@ public final class HubMaze {
         if (x < 0 || z < 0 || x >= SX || z >= SZ || y < 0 || y >= SY) return 0;
         return lgt[idx(x, z, y)];
     }
-    public static int startX() { return originX + START_I * P + 3; }
-    public static int startZ() { return originZ + START_J * P + 3; }
-    /**
-     * Set the world origin offset so that the start cell center lands at world (ox, oz).
-     * Call before the first chunk is generated (e.g. from the hub-world setup).
-     */
-    public static void setOrigin(int ox, int oz) { originX = ox; originZ = oz; }
+    public static int startX() { return START_I * P + 3; }
+    public static int startZ() { return START_J * P + 3; }
     /** 0 = no door here, 1 = home door, 2.. = instance door number + 2 */
     public static int doorKindAt(int x, int z) { Integer k = doorKind.get(key(x, z)); return k == null ? 0 : k; }
     public static int doorCount() { return DOORS.size(); }

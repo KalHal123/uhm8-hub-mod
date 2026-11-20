@@ -1,7 +1,0 @@
-package x;
-
-public interface Class0330 {
-   int _7TBLT6P2Q2J9gzv0TGDw7bQ7inN2yM8KA5OK1uVa717TQoUqtu28mk5kk7R/* $VF was: 27TBLT6P2Q2J9gzv0TGDw7bQ7inN2yM8KA5OK1uVa717TQoUqtu28mk5kk7R */();
-
-   Class0152 _ods1J4OOV9C3K2w8iv86JlQiS3Q7j94f9mx88pSx5KCDc6Nx58rLPlNa66Q/* $VF was: 8ods1J4OOV9C3K2w8iv86JlQiS3Q7j94f9mx88pSx5KCDc6Nx58rLPlNa66Q */(int var1);
-}

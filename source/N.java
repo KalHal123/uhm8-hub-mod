@@ -62,4 +62,8 @@ public class N {
   public static final String F_SPAWNX = "01d2ssfM8LK4kLnkL0u9ml4w6nuErqGh8449WV70OP842UK6VcDJe9tV4Grf";
   public static final String F_SPAWNY = "2qXgf6CW6qvavh8I3313k0Br37Ik2hhAUd7xfLC13uj2gjOBWB5gLwDf4iI6";
   public static final String F_SPAWNZ = "454PK5YFHgg4V8nk6oaJ64rpp4Dh0q7eMb5wMYTYAHf3McQ84p854xN8i0y6";
+  public static final String OVERGEN = "558q23gk66Cx1OdBJBWC7VTXR0LmuO3t8y8980L1Xqn06l37dSTnn7ZXdEvDtHSEYFq2z0668ZufwKgh6MR6psGso4MRVO4i2p";
+  public static final String M_POPBODY = "3omLb34i584aHXT7PHdMjMcq569NHZYB8UjUfQrz6mnhllfGAe3nZed2Y9KV";
+  public static final String F_OVWORLD = "7zOS3dF4RdCt7iN529SsMbUO3OR4POQ41kfbwOuOCBAuIpiJ1p2rT909949P";
+  public static final String F_SEED = "1FawBBFYvHD6RwlXAU5K97Vdl06vvbW1l7jIv9UTLqhT80S0VL74wGs85AKR";
 }

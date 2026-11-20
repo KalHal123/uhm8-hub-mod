@@ -20,7 +20,7 @@ public class Patcher {
         patchHubDoor(in, out);
         patchHubWorld(in, out);
         patchHubGen(in, out);
-        patchMinecraft(in, out);
+        patchOverworldGen(in, out);
         System.out.println("patched OK -> " + out);
     }
 
@@ -116,35 +116,7 @@ public class Patcher {
         p.add(new VarInsnNode(ALOAD, 5)); p.add(new TypeInsnNode(INSTANCEOF, N.PLAYER)); p.add(new JumpInsnNode(IFEQ, orig));
         p.add(new VarInsnNode(ALOAD, 5)); p.add(new MethodInsnNode(INVOKESTATIC, N.HD, "hubCanUse", "(" + L(N.ENTITY) + ")Z", false)); p.add(new JumpInsnNode(IFEQ, ret));
         p.add(new VarInsnNode(ALOAD, 1)); p.add(new TypeInsnNode(INSTANCEOF, N.HUBWORLD)); p.add(new JumpInsnNode(IFEQ, orig));
-        // inside the hub: ask HubNet where this door leads (home / another instance's world)
-        LabelNode picker = new LabelNode();
-        p.add(new VarInsnNode(ILOAD, 2)); p.add(new VarInsnNode(ILOAD, 4));
-        p.add(new MethodInsnNode(INVOKESTATIC, "HubNet", "route", "(II)Ljava/lang/String;", false));
-        p.add(new VarInsnNode(ASTORE, 8));
-        p.add(new VarInsnNode(ALOAD, 8)); p.add(new JumpInsnNode(IFNULL, picker));
-        p.add(new FieldInsnNode(GETSTATIC, N.HOLDER, N.F_MC, L(MC)));
-        p.add(new VarInsnNode(ALOAD, 8));
-        p.add(new MethodInsnNode(INVOKEVIRTUAL, MC, N.M_STARTWORLD, "(Ljava/lang/String;)V", false));
-        p.add(new MethodInsnNode(INVOKESTATIC, "HubNet", "consumeVisitFlag", "()Z", false));
-        p.add(new JumpInsnNode(IFEQ, ret));
-        // arrived in somebody else's world: put a return Hub Door next to the spawn point
-        p.add(new FieldInsnNode(GETSTATIC, N.HOLDER, N.F_MC, L(MC)));
-        p.add(new FieldInsnNode(GETFIELD, MC, N.F_MCWORLD, L(N.WORLD)));
-        p.add(new FieldInsnNode(GETSTATIC, N.HOLDER, N.F_MC, L(MC)));
-        p.add(new FieldInsnNode(GETFIELD, MC, N.F_MCPLAYER, L(N.T_MCPLAYER)));
-        p.add(new FieldInsnNode(GETFIELD, N.ENTITY, N.F_POSX, "D"));
-        p.add(new FieldInsnNode(GETSTATIC, N.HOLDER, N.F_MC, L(MC)));
-        p.add(new FieldInsnNode(GETFIELD, MC, N.F_MCPLAYER, L(N.T_MCPLAYER)));
-        p.add(new FieldInsnNode(GETFIELD, N.ENTITY, N.F_POSY, "D"));
-        p.add(new FieldInsnNode(GETSTATIC, N.HOLDER, N.F_MC, L(MC)));
-        p.add(new FieldInsnNode(GETFIELD, MC, N.F_MCPLAYER, L(N.T_MCPLAYER)));
-        p.add(new FieldInsnNode(GETFIELD, N.ENTITY, N.F_POSZ, "D"));
-        p.add(new LdcInsnNode(N.M_662aR));
-        p.add(new IntInsnNode(SIPUSH, HUB_DOOR_BLOCK_ID));
-        p.add(new MethodInsnNode(INVOKESTATIC, "HubNet", "placeReturnDoor", "(Ljava/lang/Object;DDDLjava/lang/String;I)V", false));
-        p.add(new JumpInsnNode(GOTO, ret));
-        p.add(picker);
-        // no destination known (e.g. no other instance registered yet): fall back to the world picker
+        // inside the hub: every Hub Door opens the world picker (only if no other GUI is open)
         p.add(new FieldInsnNode(GETSTATIC, N.HOLDER, N.F_MC, L(MC)));
         p.add(new FieldInsnNode(GETFIELD, MC, N.F_CURSCREEN, L(N.GUISCREEN)));
         p.add(new JumpInsnNode(IFNONNULL, ret));
@@ -225,35 +197,21 @@ public class Patcher {
         write(cn, out, N.HUBGEN);
     }
 
-    // ---- 5. Minecraft.startWorld(String): register this instance with the local hub registry ----
-    static void patchMinecraft(Path in, Path out) throws IOException {
-        Path p = in.resolve("net/minecraft/client/Minecraft.class");
-        ClassNode cn = read(p);
+    // ---- 6. overworld terrain generator: rarely place a Hub Door at the end of chunk populate ----
+    static void patchOverworldGen(Path in, Path out) throws IOException {
+        ClassNode cn = read(in.resolve(N.OVERGEN + ".class"));
         MethodNode m = null;
-        for (MethodNode mm : cn.methods) if (mm.name.equals(N.M_STARTWORLD) && mm.desc.equals("(Ljava/lang/String;)V")) m = mm;
+        for (MethodNode mm : cn.methods) if (mm.name.equals(N.M_POPBODY) && mm.desc.endsWith("II)V")) m = mm;
         InsnList add = new InsnList();
-        add.add(new TypeInsnNode(NEW, "java/io/File")); add.add(new InsnNode(DUP));
-        add.add(new MethodInsnNode(INVOKESTATIC, MC, N.M_GETMCDIR, "()Ljava/io/File;", false));
-        add.add(new LdcInsnNode("saves"));
-        add.add(new MethodInsnNode(INVOKESPECIAL, "java/io/File", "<init>", "(Ljava/io/File;Ljava/lang/String;)V", false));
-        add.add(new VarInsnNode(ALOAD, 1));
-        add.add(new MethodInsnNode(INVOKESTATIC, "HubNet", "onStartWorld", "(Ljava/io/File;Ljava/lang/String;)V", false));
-        m.instructions.insert(add);
-        Path dst = out.resolve("net/minecraft/client"); Files.createDirectories(dst);
-        ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES | ClassWriter.COMPUTE_MAXS) {
-            @Override protected String getCommonSuperClass(String t1, String t2) {
-                try {
-                    Class<?> c1 = Class.forName(t1.replace('/', '.'), false, loader), c2 = Class.forName(t2.replace('/', '.'), false, loader);
-                    if (c1.isAssignableFrom(c2)) return t1;
-                    if (c2.isAssignableFrom(c1)) return t2;
-                    if (c1.isInterface() || c2.isInterface()) return "java/lang/Object";
-                    do { c1 = c1.getSuperclass(); } while (!c1.isAssignableFrom(c2));
-                    return c1.getName().replace('.', '/');
-                } catch (Throwable e) { return "java/lang/Object"; }
-            }
-        };
-        cn.accept(cw);
-        Files.write(dst.resolve("Minecraft.class"), cw.toByteArray());
+        add.add(new VarInsnNode(ALOAD, 0)); add.add(new FieldInsnNode(GETFIELD, N.OVERGEN, N.F_OVWORLD, L(N.WORLD)));
+        add.add(new VarInsnNode(ILOAD, 2)); add.add(new VarInsnNode(ILOAD, 3));
+        add.add(new VarInsnNode(ALOAD, 0)); add.add(new FieldInsnNode(GETFIELD, N.OVERGEN, N.F_OVWORLD, L(N.WORLD)));
+        add.add(new FieldInsnNode(GETFIELD, N.WORLD, N.F_SEED, "J"));
+        add.add(new LdcInsnNode(N.WORLD)); add.add(new LdcInsnNode(N.M_1067Q)); add.add(new LdcInsnNode(N.M_662aR));
+        add.add(new MethodInsnNode(INVOKESTATIC, "HubSpawner", "maybePlace", "(Ljava/lang/Object;IIJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", false));
+        for (AbstractInsnNode i : m.instructions.toArray())
+            if (i.getOpcode() == RETURN) m.instructions.insertBefore(i, cloneList(add));
+        write(cn, out, N.OVERGEN);
     }
 
     static AbstractInsnNode ldc(int v) {
